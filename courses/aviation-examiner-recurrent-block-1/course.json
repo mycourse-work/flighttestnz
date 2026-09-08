@@ -3,6 +3,7 @@
   "title": "Aviation Examiner Recurrent Professional Development — Block 1",
   "description": "A self-paced recurrent professional-development block for experienced Flight Test New Zealand aviation examiners. Practise evidence-based judgement, live-assessment conduct, professional independence, difficult decisions, debriefing and calibration.",
   "estimatedDuration": "Approximately 75 minutes",
+  "coverImage": "block-1-cover.png",
   "welcomePath": "welcome.md",
   "quizPassingThreshold": 80,
   "quizRevealMode": "end-of-quiz",

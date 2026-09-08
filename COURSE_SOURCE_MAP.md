@@ -27,6 +27,7 @@
 - Infographic 7 — communication without coaching: Block 3 Lesson 3.2, placed after the scenario explanation.
 - Raster contextual scenes: live assessment in Block 1, readiness/weather in Block 2, and professional debriefing in Block 3.
 - Each core SVG infographic now has a high-resolution PNG delivery asset beside the editable SVG source.
+- The final five-question review sets are now visible inside each review lesson as source-matched self-checks with model reasoning; they remain duplicated in the knowledge-check files for the player.
 
 ## Deliberate normalisations and open approvals
 

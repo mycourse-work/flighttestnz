@@ -26,6 +26,75 @@ Complete the Block 1 knowledge check to record your understanding. It is a forma
 
 The [optional Block 1 evidence and debrief aid](./downloads/block-1-evidence-and-debrief-aid.md) condenses the five-pass review for later field use; it is not an additional mandatory lesson.
 
+## Source review questions
+
+These self-checks reproduce the final review questions from the master course. Decide before opening each model explanation.
+
+<details>
+<summary>Review 1 — When operational pressure exists, what should determine the standard?</summary>
+
+<ol type="A">
+<li>Candidate experience.</li>
+<li>Operator need.</li>
+<li>Published requirements and current assessment evidence.</li>
+<li>Examiner familiarity.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> C. Operational pressure may be real, but it does not alter the applicable standard or the evidence required.</p>
+</details>
+
+<details>
+<summary>Review 2 — What is the best description of examiner drift?</summary>
+
+<ol type="A">
+<li>Any development in examiner technique.</li>
+<li>Gradual movement away from shared interpretation or application of the required standard.</li>
+<li>A formal CAA enforcement action.</li>
+<li>Any disagreement between two examiners.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> B. Professional practice should evolve. Drift refers to movement away from shared standards or their consistent application.</p>
+</details>
+
+<details>
+<summary>Review 3 — A candidate makes an error, recognises it independently and corrects it. What should the examiner do?</summary>
+
+<ol type="A">
+<li>Ignore the original error because recovery occurred.</li>
+<li>Treat the error as an automatic failure.</li>
+<li>Consider both the error and the recovery in context with the wider evidence and applicable standard.</li>
+<li>Repeat the exercise until it is performed correctly.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> C. The original error and independent recovery are both relevant evidence. Neither should be considered in isolation from the wider assessment pattern and applicable standard.</p>
+</details>
+
+<details>
+<summary>Review 4 — How should strong recovery after an error be treated?</summary>
+
+<ol type="A">
+<li>It always cancels the original error.</li>
+<li>It is irrelevant.</li>
+<li>It is additional evidence that must be weighed with the original event.</li>
+<li>It automatically changes a fail to a pass.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> C. Recovery may demonstrate recognition and resilience, but it does not erase the original evidence.</p>
+</details>
+
+<details>
+<summary>Review 5 — Which note is most defensible?</summary>
+
+<ol type="A">
+<li>“Poor judgement.”</li>
+<li>“Weak situational awareness.”</li>
+<li>“Continued approach after agreed stabilisation criteria were not met.”</li>
+<li>“Candidate seemed stressed.”</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> C. The strongest note records specific observable behaviour that can be linked to the standard.</p>
+</details>
+
 ## Completion position
 
 The objective of Block 1 is not to create identical examiners. It is to maintain examiners who apply current standards consistently, protect assessment integrity, communicate clearly and can defend difficult decisions using evidence.

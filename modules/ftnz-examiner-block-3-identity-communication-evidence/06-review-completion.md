@@ -29,6 +29,75 @@ Complete the Block 3 knowledge check to record your understanding. It is a forma
 
 The [optional Block 3 defensible-practice aid](./downloads/block-3-defensible-practice-aid.md) is available for later field use; it is not an additional mandatory lesson.
 
+## Source review questions
+
+These self-checks reproduce the final review questions from the master course. Decide before opening each model explanation.
+
+<details>
+<summary>Review 1 — What is the main risk when an examiner asks a leading question?</summary>
+
+<ol type="A">
+<li>It makes the assessment longer.</li>
+<li>It may create or influence the evidence being assessed.</li>
+<li>Candidates dislike being questioned.</li>
+<li>Questions are prohibited during flight tests.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> B. Leading questions can change the evidential value of the candidate’s subsequent actions.</p>
+</details>
+
+<details>
+<summary>Review 2 — A candidate says another examiner would have passed the performance. What is the strongest response?</summary>
+
+<ol type="A">
+<li>Defend the examiner profession.</li>
+<li>Criticise the other examiner.</li>
+<li>Return to the evidence from the current assessment and the applicable standard.</li>
+<li>End the debrief immediately.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> C. Explain the current assessment rather than speculate about another examiner.</p>
+</details>
+
+<details>
+<summary>Review 3 — Which note is most defensible?</summary>
+
+<ol type="A">
+<li>Poor situational awareness.</li>
+<li>Candidate appeared overloaded.</li>
+<li>Missed two radio calls, omitted checklist and exceeded assigned altitude before correcting.</li>
+<li>Needs more practice.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> C. It records observable behaviour rather than an unsupported interpretation.</p>
+</details>
+
+<details>
+<summary>Review 4 — Why should strong recovery be included in the assessment record?</summary>
+
+<ol type="A">
+<li>Because recovery automatically cancels the original error.</li>
+<li>Because it is part of the complete evidence story.</li>
+<li>Because unsuccessful candidates must receive positive comments.</li>
+<li>Because recovery always demonstrates competence.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> B. Recovery is relevant evidence and should be considered alongside the original event.</p>
+</details>
+
+<details>
+<summary>Review 5 — Which statement best describes professional examiner authority?</summary>
+
+<ol type="A">
+<li>The examiner’s experience determines the standard.</li>
+<li>The examiner should avoid explaining difficult decisions.</li>
+<li>Authority is demonstrated through calm, evidence-based application and explanation of the required standard.</li>
+<li>Candidates should not be permitted to question an outcome.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> C. Professional authority comes from disciplined application and explanation of evidence and standards.</p>
+</details>
+
 ## Completion position
 
 The assessment outcome is only one part of examiner professionalism. The way the assessment is conducted, evidenced, communicated and recorded must be equally defensible.

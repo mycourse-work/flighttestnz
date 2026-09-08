@@ -2,6 +2,8 @@
 
 During a live assessment, you are simultaneously observing performance, monitoring safety, gathering evidence, managing communication and deciding whether the assessment can continue validly.
 
+![Flight examiner observing a candidate during a live flight assessment and recording evidence](./assets/live-assessment-scene.png)
+
 ## Observation discipline
 
 - Observe the whole performance rather than allowing one strong or weak event to dominate.
@@ -22,15 +24,29 @@ During a live assessment, you are simultaneously observing performance, monitori
 
 > **Important:** The decision to intervene is a safety decision. The meaning of that intervention for the assessment outcome is a separate professional judgement based on context, timing, severity and the standard being assessed.
 
-## Scenario — incorrect frequency entry
+## Protecting observation while managing safety
 
-![Evidence pathway for an error, recognition, recovery, recurrence and standard comparison](./assets/isolated-error-pattern.svg)
+The examiner’s task is not passive observation. It is active management of the boundary between gathering evidence and protecting safety or validity.
+
+| Ask yourself | Why it matters |
+| --- | --- |
+| Is there an immediate safety consequence if I continue observing? | Safety action may take priority over further evidence. |
+| Can the event continue without an examiner cue? | Unnecessary prompting can change the evidential value. |
+| What exactly did I observe before acting? | The pre-intervention record helps preserve the original evidence. |
+| What did my action make possible or impossible to observe? | Intervention may affect later interpretation. |
+| Can the assessment remain fair and valid after the intervention? | Safety action and assessment outcome are related but separate decisions. |
+
+If intervention is necessary, use the minimum action consistent with safe conduct and record the reason, timing and effect. Do not let a safety intervention become an automatic assessment conclusion.
+
+## Scenario — incorrect frequency entry
 
 During a flight assessment, the candidate is instructed to change to a new radio frequency. The candidate enters one digit incorrectly and makes a call. There is no response. After a short period, the candidate checks the radio, identifies the incorrect frequency, enters the correct frequency and establishes communication. The remainder of the sequence continues normally.
 
 The error is observable evidence. Its assessment significance depends on context: whether it was isolated or part of a wider pattern, how independently and promptly it was recognised, the quality of the recovery and how the event relates to the applicable standard.
 
 Do not convert a minor procedural error into an automatic outcome, and do not ignore it because communication was eventually established. The recovery adds evidence; it does not erase the original error.
+
+![Evidence pathway for an error, recognition, recovery, recurrence and standard comparison](./assets/isolated-error-pattern.svg)
 
 ## Objective notes
 
@@ -43,3 +59,5 @@ Do not convert a minor procedural error into an automatic outcome, and do not ig
 ## Apply it
 
 Before the next assessment, decide what you will do when an event is concerning but not yet unsafe. Name the observation threshold, the safety threshold and the point at which assessment validity may no longer be maintained.
+
+> **TEM Reflection:** Which error would you be most tempted to correct early because it feels uncomfortable to watch? What would you need to observe before deciding that a prompt is necessary?

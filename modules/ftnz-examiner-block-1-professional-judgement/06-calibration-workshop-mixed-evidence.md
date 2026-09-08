@@ -2,6 +2,13 @@
 
 Work through this case independently. Commit to each decision before comparing your reasoning with the model reasoning in the knowledge check.
 
+> **Scope note:** This is a calibration reasoning exercise. The supplied source does not identify a particular FTNZ competency or assessment criterion, so do not infer an automatic outcome from the scenario. Use the approved standard applicable to the assessment when making the final decision.
+
+:::widget ftnz-calibration-workshop
+block: 1
+title: Block 1 staged calibration workshop
+:::
+
 ## Stage 1 — before commencement
 
 A candidate presents for a proficiency assessment. The operator is short of qualified personnel. The candidate is well known and experienced. One administrative prerequisite appears incomplete, but the operator advises that the underlying training has definitely been completed and the paperwork can be corrected later.

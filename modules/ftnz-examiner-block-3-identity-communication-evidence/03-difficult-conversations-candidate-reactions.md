@@ -26,14 +26,41 @@ Avoid becoming drawn into a contest of authority. Return to:
 
 Professional acknowledgement does not require changing the decision. It preserves respect while returning the conversation to evidence.
 
+## A calm debrief structure
+
+Use a predictable sequence when the candidate is surprised or defensive:
+
+1. **Outcome:** State what the assessment outcome is.
+2. **Evidence:** Identify the specific observations that mattered most.
+3. **Standard:** Explain the competency or requirement against which they were considered.
+4. **Balance:** Acknowledge relevant strengths and recovery without allowing them to erase the concern.
+5. **Next step:** Explain any applicable review, follow-up or training process without negotiating the current assessment.
+
+If the discussion becomes repetitive, restate the evidence once, answer a genuine clarification, and close the debrief respectfully. Professionalism does not require the candidate to agree.
+
 ## Scenario — another examiner would have passed me
 
 You advise a candidate that the required standard was not demonstrated. The candidate replies: “That’s ridiculous. I’ve done this before and another examiner had no problem with it.”
 
 The strongest response is to avoid commenting on another assessment and explain the evidence from today’s assessment and how it relates to the required standard. You do not need to defend or criticise another examiner.
 
+### If the reaction escalates
+
+Keep your language short and steady. Acknowledge the emotion, return to the current evidence, and set a respectful boundary if the discussion becomes personal. Do not use the candidate’s emotion as evidence of competence or lack of competence.
+
+| Candidate reaction | Professional move |
+| --- | --- |
+| Surprise | Restate the outcome and identify the decisive evidence. |
+| Disagreement | Explain the current standard and evidence without debating another assessment. |
+| Negotiation | Acknowledge operational consequences, but do not bargain over the standard. |
+| Repetition | Answer genuine clarification once, then close or refer to the valid review process. |
+
 ## When discussion becomes argument
 
 Once the decision and reasoning have been explained clearly, repeating the same argument indefinitely is unlikely to improve the debrief. You may need to restate the outcome, clarify the evidence once, explain any applicable review or follow-up process, remain respectful and close the debrief professionally.
 
 > **Reference point:** Professionalism does not require the candidate to agree.
+
+## Apply it
+
+Write one sentence that acknowledges disappointment without conceding the decision. Follow it with one sentence that returns to current evidence and the applicable standard.

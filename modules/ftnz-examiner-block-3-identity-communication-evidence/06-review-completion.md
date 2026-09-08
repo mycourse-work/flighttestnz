@@ -2,6 +2,8 @@
 
 ## Key points
 
+![Four-stage pathway from evidence to a defensible examiner decision](./assets/recurrent-calibration-question.svg)
+
 - Experience should strengthen professional discipline, not create a personal assessment standard.
 - Examiner behaviour influences the assessment environment.
 - Questions should obtain evidence rather than create it.

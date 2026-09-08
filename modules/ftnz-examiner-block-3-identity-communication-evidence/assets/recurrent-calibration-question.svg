@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The recurrent calibration question</title>
+  <desc id="desc">A four-stage pathway from evidence to standard to reasoning to a defensible decision, followed by a calibration question.</desc>
+  <rect width="1600" height="900" fill="#f7f9fc"/>
+  <rect x="70" y="60" width="1460" height="780" rx="28" fill="#ffffff" stroke="#d7e0ef" stroke-width="3"/>
+  <text x="130" y="145" fill="#092c73" font-family="Arial, sans-serif" font-size="52" font-weight="700">Recurrent calibration</text>
+  <text x="130" y="195" fill="#53627a" font-family="Arial, sans-serif" font-size="27">Make the reasoning visible before you decide.</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="130" y="295" width="260" height="145" rx="18" fill="#eaf0fb" stroke="#092c73" stroke-width="3"/>
+    <text x="260" y="380" fill="#092c73" font-size="38" font-weight="700">Evidence</text>
+    <text x="430" y="385" fill="#e8000b" font-size="54" font-weight="700">→</text>
+    <rect x="485" y="295" width="260" height="145" rx="18" fill="#eaf0fb" stroke="#092c73" stroke-width="3"/>
+    <text x="615" y="380" fill="#092c73" font-size="38" font-weight="700">Standard</text>
+    <text x="800" y="385" fill="#e8000b" font-size="54" font-weight="700">→</text>
+    <rect x="855" y="295" width="260" height="145" rx="18" fill="#eaf0fb" stroke="#092c73" stroke-width="3"/>
+    <text x="985" y="380" fill="#092c73" font-size="38" font-weight="700">Reasoning</text>
+    <text x="1170" y="385" fill="#e8000b" font-size="54" font-weight="700">→</text>
+    <rect x="1225" y="295" width="260" height="145" rx="18" fill="#fff0f1" stroke="#e8000b" stroke-width="3"/>
+    <text x="1355" y="360" fill="#a60008" font-size="33" font-weight="700">Defensible</text>
+    <text x="1355" y="405" fill="#a60008" font-size="33" font-weight="700">decision</text>
+  </g>
+  <rect x="145" y="535" width="1310" height="190" rx="22" fill="#092c73"/>
+  <text x="800" y="600" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">Would another experienced examiner, given the same evidence</text>
+  <text x="800" y="645" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">and the same standard, understand and support the reasoning?</text>
+  <text x="800" y="690" fill="#ffb3b6" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Consistency does not require identical personal technique.</text>
+</svg>

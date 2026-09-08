@@ -38,6 +38,23 @@ An isolated event can be decisive if its severity and relationship to the standa
 
 These are not the same. If an assessment opportunity was incomplete or disrupted, do not fill gaps with assumptions. Ask whether additional valid evidence can be gathered. If it cannot, the outcome must reflect the evidence actually available and the governing assessment requirements.
 
+## Mixed-evidence weighting worksheet
+
+When an assessment feels borderline, sort the evidence before deciding how much weight it carries:
+
+| Evidence group | Questions to answer |
+| --- | --- |
+| Strengths | What demonstrated the required competency or standard? |
+| Concerns | What specific behaviour raised concern? |
+| Context | What workload, information, pressure or opportunity surrounded it? |
+| Recognition | Did the candidate notice the issue, and how quickly? |
+| Recovery | Was the response independent, appropriate and effective? |
+| Pattern | Did similar behaviour occur elsewhere? |
+| Gaps | What evidence is still missing, and can it be gathered validly? |
+| Standard | Which published criterion or competency controls the conclusion? |
+
+This prevents a strong start, a familiar candidate or a satisfying recovery from becoming a shortcut around the evidence. It also prevents a single concern from making all positive evidence disappear.
+
 ## Key takeaways
 
 - Borderline decisions require careful interpretation, not automatic leniency or automatic failure.

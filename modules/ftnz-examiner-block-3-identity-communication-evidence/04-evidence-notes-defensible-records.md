@@ -14,8 +14,6 @@ Examiner notes have two purposes: they support judgement during the assessment a
 | Bad TEM | Identified deteriorating weather but continued without discussing available alternatives. |
 | Poor communication | Readback omitted altitude restriction and error was not recognised until ATC correction. |
 
-![Three-panel pathway from observable evidence through interpretation to a conclusion linked to the applicable standard](./assets/evidence-interpretation-conclusion.svg)
-
 ## Separate evidence from interpretation
 
 “Candidate became overloaded” is already an interpretation. A stronger record might be:
@@ -23,6 +21,8 @@ Examiner notes have two purposes: they support judgement during the assessment a
 > “During arrival: missed radio call; checklist not completed; altitude deviation 180 ft; required repeated heading correction.”
 
 You can then explain why those observations supported a workload-management judgement.
+
+![Three-panel pathway from observable evidence through interpretation to a conclusion linked to the applicable standard](./assets/evidence-interpretation-conclusion.svg)
 
 ## Record enough — not everything
 
@@ -34,6 +34,28 @@ Excessive note-taking can:
 - distract from safety monitoring.
 
 The objective is sufficient evidence, not maximum words.
+
+## The minimum sufficient record
+
+A useful record should allow a later reviewer to answer:
+
+- What happened, and in what sequence?
+- What context or information was available?
+- What did the candidate recognise and manage independently?
+- What did the examiner say or do, if intervention occurred?
+- Which evidence was positive, concerning or repeated?
+- Which standard or competency controlled the interpretation?
+- Why did the final conclusion follow from the evidence?
+
+## Pattern recognition without assumption
+
+When similar events occur, compare them explicitly rather than writing “repeated poor performance”. Record the event, context, recognition, recovery and result for each occurrence, then state what pattern—if any—the comparison supports. A pattern is not created merely by counting events; its significance depends on recurrence, context, severity, independence and the applicable standard.
+
+Record enough to support the reasoning, not every detail of the flight. A concise record can be stronger than a long record if it preserves the decision-relevant observations and avoids unsupported labels.
+
+### Reconstruction test
+
+Set the notes aside, then ask another experienced examiner to explain the likely reasoning from the record alone. If they need to rely on your memory, reputation or informal explanation, the record needs more observable evidence or a clearer standard link.
 
 ## Apply it
 

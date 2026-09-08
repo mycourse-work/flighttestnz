@@ -33,6 +33,20 @@ Depending on the assessment, consider:
 
 > **Important:** Likely competence cannot cure an invalid assessment.
 
+## Three readiness gates
+
+Use three separate questions before you begin:
+
+1. **Legitimacy:** Are the candidate, examiner, aircraft or simulator, equipment and documentation eligible for this assessment?
+2. **Safety:** Can the assessment be conducted without an unacceptable exposure to the threats already present?
+3. **Evidence:** Is the environment capable of producing fair, reliable and defensible evidence against the required standard?
+
+Passing one gate does not automatically pass the others. A candidate may be eligible but not ready for a fair assessment today. An aircraft may be serviceable while the examiner’s workload or the operating conditions make reliable observation difficult.
+
+### Resolve, record or stop
+
+When a deficiency is found, identify whether it can be legitimately resolved before commencement, whether it must be recorded and referred to FTNZ, or whether the assessment must not begin. Do not create an informal substitute for a required record simply because the candidate has travelled or the aircraft is waiting.
+
 ## Scenario — the missing evidence
 
 A candidate presents for an assessment. The required training has reportedly been completed. The instructor confirms verbally that everything was done correctly. However, one required training record cannot be located. The candidate has travelled several hours to attend and the aircraft has been booked specifically for the assessment.
@@ -47,3 +61,7 @@ Assessment readiness also applies to you. Consider fatigue, illness, workload, d
 <div class="reflection-prompt"><strong>Pause and reflect</strong><br>Do you apply the same readiness scrutiny to yourself that you apply to the candidate and aircraft?</div>
 <div class="reflection-answer"><strong>Consider</strong> whether your own fatigue, workload, preparation or recency could affect fairness, safety or the reliability of the evidence gathered.</div>
 </div>
+
+## Apply it
+
+Take a planned assessment and write one line for each readiness gate. If your answer is “yes” only because the candidate is probably competent or the operator needs the flight completed, revisit the reasoning.

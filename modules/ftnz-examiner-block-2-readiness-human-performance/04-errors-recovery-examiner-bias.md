@@ -12,17 +12,30 @@ Errors occur even during competent performance. Ask more than “Was there an er
 
 ## Recovery is evidence
 
-![Timeline showing an error and recovery as one complete evidence sequence](./assets/recovery-evidence-story.svg)
-
 A candidate who recognises an error, stops deterioration, reprioritises, corrects effectively and restores safe operation may provide valuable evidence of competence.
 
 Recovery does not erase the original event. Assess the complete sequence, including severity, recognition time, independence, quality of corrective action, safety margin and recurrence.
+
+## A recovery profile
+
+Describe recovery with enough detail to distinguish different evidence:
+
+- **Recognition:** Did the candidate notice the issue without a cue?
+- **Timing:** How long did deterioration continue before recognition?
+- **Diagnosis:** Did the candidate identify the relevant problem or only react to its consequence?
+- **Response:** Was the corrective action deliberate, appropriate and proportionate?
+- **Result:** Was the situation stabilised and was the safety margin restored?
+- **Transfer:** Did the candidate apply the learning later in the assessment?
+
+The profile prevents “recovered” from becoming an unexplained positive label. It also prevents the original event from being treated as the only evidence.
 
 ## Scenario — the excellent recovery
 
 During a high-workload phase, a candidate becomes distracted by an unexpected system issue. Situational awareness deteriorates and the candidate initially fails to recognise the developing problem. After approximately thirty seconds, the candidate recognises the situation, deliberately slows the operation, reprioritises correctly, communicates effectively, re-establishes situational awareness and safely completes the exercise.
 
 Both the deterioration and the recovery are relevant assessment evidence. A good recovery can demonstrate valuable competencies, but it does not make the earlier event disappear.
+
+![Timeline showing an error and recovery as one complete evidence sequence](./assets/recovery-evidence-story.svg)
 
 ## Examiner cognition matters too
 
@@ -35,3 +48,7 @@ Both the deterioration and the recovery are relevant assessment evidence. A good
 | Expectation bias | Reputation or prior knowledge influences what you expect to observe. |
 
 > **Control question:** Whenever you notice yourself reaching an early conclusion, ask: “What evidence would cause me to change my mind?” If the answer is “nothing”, judgement may already have closed too early.
+
+## Apply it
+
+Choose one event from a recent assessment and write two separate sentences: one for the deterioration or error, and one for the recognition and recovery. Then identify the bias that could make either sentence receive too much or too little weight.

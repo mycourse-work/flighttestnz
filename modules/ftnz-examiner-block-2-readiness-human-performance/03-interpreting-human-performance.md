@@ -17,7 +17,32 @@ Do not jump immediately from observation to conclusion. Use this disciplined seq
 5. Which competency or standard is relevant?
 6. What conclusion does the evidence support?
 
-![Disciplined reasoning path from observation through context and standard to conclusion](./assets/behaviour-to-assessment-decision.svg)
+## Use TEM and NOTECHS as evidence lenses
+
+TEM, human factors and NOTECHS help organise what is observed; they do not supply a conclusion by themselves. For example, an examiner may record the threat context, the error, the candidate’s recognition, the management response and the resulting outcome. The relevant competency or standard is then used to interpret that sequence.
+
+Avoid turning a label into a finding. “Poor situational awareness” is a conclusion that needs observable evidence beneath it. A useful record lets another examiner see the context and the behaviour before agreeing or disagreeing with the interpretation.
+
+### Worked example
+
+**Observation:** Weather deteriorated, the candidate continued toward it, available alternatives were not discussed, and the candidate diverted after receiving further information.
+
+**Possible interpretation:** The timing and quality of threat recognition and decision-making require examination.
+
+**Next question:** What does the applicable standard require, and what additional evidence is needed to decide whether the behaviour demonstrates the competency?
+
+### Compact evidence crosswalk
+
+Use the established TEM and NOTECHS concepts as organising lenses rather than as automatic findings:
+
+| What you observe | Organising lens | What to examine next |
+| --- | --- | --- |
+| Weather deteriorates while alternatives remain available. | Threat context | What information was available, and how did it affect planning? |
+| A radio call is missed during increased workload. | Error / workload evidence | Was it recognised, managed and repeated? |
+| The candidate diverts after receiving further information. | Management and decision-making evidence | How timely, independent and effective was the response? |
+| Communication becomes shorter and less organised. | Communication / coordination evidence | Did this affect shared understanding or the ability to manage the assessment? |
+
+The table organises inquiry; it does not replace the approved competency or standard. Record the observable behaviour first, then explain which evidence supports the interpretation.
 
 ## Technical performance is not the whole picture
 
@@ -30,6 +55,8 @@ Likewise, a candidate may make minor technical errors while demonstrating strong
 A candidate flies accurately and confidently. Aircraft handling is consistently strong. However, as the flight progresses, weather deteriorates, alternative options are available, the candidate continues toward the weather, decision-making becomes increasingly reactive and threat recognition appears weak.
 
 The appropriate interpretation is to recognise the strong technical evidence and the weaker decision-making evidence separately, then assess both against the required standard. Do not wait for a technical error before becoming concerned, and do not assume that poor judgement automatically overrides all technical evidence.
+
+![Disciplined reasoning path from observation through context and standard to conclusion](./assets/behaviour-to-assessment-decision.svg)
 
 ## Apply it
 

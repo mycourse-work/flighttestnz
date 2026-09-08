@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* === TEMPLATE CSS — DO NOT EDIT === */
+
+    /* Reset */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Theme variables — defaults, overridden via URL params */
+    :root {
+      --widget-primary: #3b82f6;
+      --widget-primary-hover: #2563eb;
+      --widget-primary-light: #dbeafe;
+      --widget-primary-dark: #1e40af;
+      --widget-font: system-ui, -apple-system, sans-serif;
+      --widget-bg: #ffffff;
+      --widget-bg-secondary: #f8fafc;
+      --widget-text: #1e293b;
+      --widget-text-muted: #64748b;
+      --widget-border: #e2e8f0;
+      --widget-radius: 8px;
+      --widget-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      --widget-success: #22c55e;
+      --widget-warning: #f59e0b;
+      --widget-error: #ef4444;
+    }
+
+    [data-theme="dark"] {
+      --widget-bg: #1e293b;
+      --widget-bg-secondary: #0f172a;
+      --widget-text: #f1f5f9;
+      --widget-text-muted: #94a3b8;
+      --widget-border: #334155;
+      --widget-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+      --widget-primary-light: #1e3a5f;
+    }
+
+    html, body {
+      font-family: var(--widget-font);
+      background: var(--widget-bg);
+      color: var(--widget-text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow: hidden;
+    }
+
+    body {
+      padding: 16px;
+    }
+
+    #widget {
+      max-width: 100%;
+    }
+
+    /* === Utility Classes === */
+
+    .widget-title {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: var(--widget-text);
+    }
+
+    .widget-body {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .widget-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .widget-output {
+      padding: 16px;
+      background: var(--widget-bg-secondary);
+      border: 1px solid var(--widget-border);
+      border-radius: var(--widget-radius);
+      min-height: 60px;
+    }
+
+    .widget-canvas {
+      width: 100%;
+      border-radius: var(--widget-radius);
+      overflow: hidden;
+    }
+
+    /* Stat cards */
+    .stat-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 16px;
+      background: var(--widget-bg-secondary);
+      border: 1px solid var(--widget-border);
+      border-radius: var(--widget-radius);
+      text-align: center;
+    }
+
+    .stat-card .stat-value {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--widget-primary);
+      line-height: 1.2;
+    }
+
+    .stat-card .stat-label {
+      font-size: 0.75rem;
+      color: var(--widget-text-muted);
+      margin-top: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* Slider group */
+    .slider-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      flex: 1;
+      min-width: 140px;
+    }
+
+    .slider-group label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--widget-text);
+    }
+
+    .slider-group .slider-value {
+      font-weight: 600;
+      color: var(--widget-primary);
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 8px 16px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      font-family: inherit;
+      border-radius: var(--widget-radius);
+      border: 1px solid var(--widget-border);
+      background: var(--widget-bg);
+      color: var(--widget-text);
+      cursor: pointer;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+
+    .btn:hover {
+      background: var(--widget-bg-secondary);
+      border-color: var(--widget-text-muted);
+    }
+
+    .btn:active {
+      transform: scale(0.98);
+    }
+
+    .btn-primary {
+      background: var(--widget-primary);
+      color: #fff;
+      border-color: var(--widget-primary);
+    }
+
+    .btn-primary:hover {
+      background: var(--widget-primary-hover);
+      border-color: var(--widget-primary-hover);
+    }
+
+    .btn-secondary {
+      background: var(--widget-bg-secondary);
+      border-color: var(--widget-border);
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--widget-primary);
+      color: var(--widget-primary);
+    }
+
+    /* Grid layouts */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    @media (max-width: 480px) {
+      .grid-2, .grid-3 {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Animations */
+    .fade-in {
+      animation: fadeIn 0.3s ease-out;
+    }
+
+    .slide-up {
+      animation: slideUp 0.3s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Form elements */
+    input[type="range"] {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 100%;
+      height: 6px;
+      border-radius: 3px;
+      background: var(--widget-border);
+      outline: none;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--widget-primary);
+      cursor: pointer;
+      border: 2px solid #fff;
+      box-shadow: var(--widget-shadow);
+    }
+
+    input[type="range"]::-moz-range-thumb {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--widget-primary);
+      cursor: pointer;
+      border: 2px solid #fff;
+      box-shadow: var(--widget-shadow);
+    }
+
+    select, input[type="text"], input[type="number"] {
+      padding: 8px 12px;
+      font-size: 0.875rem;
+      font-family: inherit;
+      border: 1px solid var(--widget-border);
+      border-radius: var(--widget-radius);
+      background: var(--widget-bg);
+      color: var(--widget-text);
+      outline: none;
+      transition: border-color 0.15s ease;
+    }
+
+    select:focus, input[type="text"]:focus, input[type="number"]:focus {
+      border-color: var(--widget-primary);
+      box-shadow: 0 0 0 3px var(--widget-primary-light);
+    }
+
+    /* Table styles */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+    }
+
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border-bottom: 1px solid var(--widget-border);
+    }
+
+    th {
+      font-weight: 600;
+      color: var(--widget-text-muted);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    tr:hover td {
+      background: var(--widget-bg-secondary);
+    }
+
+    /* Pill / tag */
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      padding: 2px 8px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      border-radius: 9999px;
+      background: var(--widget-primary-light);
+      color: var(--widget-primary-dark);
+    }
+
+    /* Progress bar */
+    .progress-bar {
+      width: 100%;
+      height: 8px;
+      background: var(--widget-border);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .progress-bar .progress-fill {
+      height: 100%;
+      background: var(--widget-primary);
+      border-radius: 4px;
+      transition: width 0.3s ease;
+    }
+
+    /* Tooltip */
+    .tooltip {
+      position: relative;
+      cursor: help;
+    }
+
+    .tooltip::after {
+      content: attr(data-tooltip);
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 4px 8px;
+      font-size: 0.75rem;
+      white-space: nowrap;
+      background: var(--widget-text);
+      color: var(--widget-bg);
+      border-radius: 4px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.15s ease;
+      margin-bottom: 4px;
+    }
+
+    .tooltip:hover::after {
+      opacity: 1;
+    }
+  </style>
+  <style>
+    /* === WIDGET CSS === */
+    .workshop-shell {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .workshop-intro {
+      color: var(--widget-text-muted);
+      font-size: 0.9rem;
+    }
+
+    .workshop-progress {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--widget-text-muted);
+      font-size: 0.8rem;
+    }
+
+    .workshop-progress .progress-bar {
+      flex: 1;
+    }
+
+    .stage-label {
+      color: var(--widget-primary-dark);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .stage-question {
+      margin-top: 4px;
+      font-size: 1.05rem;
+      font-weight: 650;
+      line-height: 1.45;
+    }
+
+    .choice-list {
+      display: grid;
+      gap: 9px;
+    }
+
+    .choice {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 11px 12px;
+      border: 1px solid var(--widget-border);
+      border-radius: var(--widget-radius);
+      background: var(--widget-bg);
+      cursor: pointer;
+      transition: border-color 0.15s ease, background 0.15s ease;
+    }
+
+    .choice:hover,
+    .choice:has(input:checked) {
+      border-color: var(--widget-primary);
+      background: var(--widget-primary-light);
+    }
+
+    .choice input {
+      margin-top: 4px;
+      accent-color: var(--widget-primary);
+      flex: 0 0 auto;
+    }
+
+    .choice span {
+      font-size: 0.9rem;
+    }
+
+    .model-feedback {
+      padding: 13px 14px;
+      border-left: 4px solid var(--widget-primary);
+      border-radius: 0 var(--widget-radius) var(--widget-radius) 0;
+      background: var(--widget-primary-light);
+      font-size: 0.9rem;
+    }
+
+    .model-feedback strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--widget-primary-dark);
+    }
+
+    .workshop-complete {
+      padding: 16px;
+      border: 1px solid var(--widget-primary);
+      border-radius: var(--widget-radius);
+      background: var(--widget-primary-light);
+      font-size: 0.95rem;
+    }
+
+    .workshop-complete strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--widget-primary-dark);
+    }
+  </style>
+
+  <!-- Libraries (available globally — use only when needed) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5/lib/p5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs/Sortable.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/animejs/lib/anime.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+  <div id="widget">
+    <div class="workshop-shell" aria-live="polite">
+      <div class="widget-title">Staged calibration workshop</div>
+      <div class="workshop-intro">Commit to each decision before the model reasoning is revealed. This activity is formative and does not replace the applicable FTNZ assessment standard.</div>
+      <div id="workshop-content"></div>
+    </div>
+  </div>
+
+  <script>
+    // === TEMPLATE JS — DO NOT EDIT ===
+
+    // Parse theme from URL params
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      const root = document.documentElement;
+
+      const theme = params.get('theme');
+      if (theme === 'dark') {
+        root.setAttribute('data-theme', 'dark');
+      }
+
+      const primary = params.get('primary');
+      if (primary) {
+        root.style.setProperty('--widget-primary', primary);
+        // Derive hover color (darken by ~10%)
+        const r = parseInt(primary.slice(1, 3), 16);
+        const g = parseInt(primary.slice(3, 5), 16);
+        const b = parseInt(primary.slice(5, 7), 16);
+        const darken = (v) => Math.max(0, Math.round(v * 0.85));
+        root.style.setProperty('--widget-primary-hover', '#' +
+          darken(r).toString(16).padStart(2, '0') +
+          darken(g).toString(16).padStart(2, '0') +
+          darken(b).toString(16).padStart(2, '0')
+        );
+        // Derive light variant
+        if (theme === 'dark') {
+          root.style.setProperty('--widget-primary-light', `rgba(${r}, ${g}, ${b}, 0.15)`);
+        } else {
+          root.style.setProperty('--widget-primary-light', `rgba(${r}, ${g}, ${b}, 0.1)`);
+        }
+        root.style.setProperty('--widget-primary-dark', '#' +
+          darken(r).toString(16).padStart(2, '0') +
+          darken(g).toString(16).padStart(2, '0') +
+          darken(b).toString(16).padStart(2, '0')
+        );
+      }
+
+      const font = params.get('font');
+      if (font) {
+        root.style.setProperty('--widget-font', font + ', system-ui, sans-serif');
+      }
+
+      try {
+        const rawProps = params.get('props');
+        window.widgetProps = rawProps ? JSON.parse(rawProps) : {};
+      } catch {
+        window.widgetProps = {};
+      }
+    })();
+
+    // Auto-resize: notify parent of content height
+    (function() {
+      let lastHeight = 0;
+
+      function reportHeight() {
+        const height = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+        if (height !== lastHeight) {
+          lastHeight = height;
+          window.parent.postMessage({ type: 'widget-resize', height: height + 1 }, '*');
+        }
+      }
+      window.__widgetReportHeight = reportHeight;
+
+      // Report on load
+      reportHeight();
+
+      // Report on resize / DOM changes
+      const observer = new ResizeObserver(reportHeight);
+      observer.observe(document.body);
+
+      // Also poll briefly after load for late-rendering content
+      let polls = 0;
+      const pollInterval = setInterval(function() {
+        reportHeight();
+        polls++;
+        if (polls >= 10) clearInterval(pollInterval);
+      }, 200);
+    })();
+
+    // Listen for theme changes from parent
+    window.addEventListener('message', function(e) {
+      if (e.data && e.data.type === 'widget-theme') {
+        const root = document.documentElement;
+        if (e.data.theme) {
+          root.setAttribute('data-theme', e.data.theme);
+        }
+        if (e.data.primary) {
+          root.style.setProperty('--widget-primary', e.data.primary);
+        }
+      }
+    });
+  </script>
+
+  <script>
+    // === WIDGET JS ===
+    (function () {
+      const datasets = {
+        '1': {
+          title: 'Block 1 — Mixed Evidence Under Pressure',
+          stages: [
+            {
+              label: 'Stage 1 — before commencement',
+              prompt: 'An administrative prerequisite appears incomplete, although the operator says the underlying training was completed. What should drive the commencement decision?',
+              options: [
+                'Likely candidate competence.',
+                'Operational need.',
+                'Whether the required preconditions for a valid assessment are actually satisfied.',
+                'The examiner’s previous knowledge of the candidate.'
+              ],
+              correct: 2,
+              feedback: 'Competence and assessment validity are related but separate. Confirm that the assessment can legitimately commence within current requirements and authority.'
+            },
+            {
+              label: 'Stage 2 — during the assessment',
+              prompt: 'The candidate misses a radio call, omits one checklist item and allows navigation accuracy to deteriorate. Each event is recoverable. What should the examiner do?',
+              options: [
+                'Fail immediately because three errors have occurred.',
+                'Ignore the issues because each was recoverable.',
+                'Continue gathering evidence and assess whether the events form a meaningful workload or situational-awareness pattern.',
+                'Prompt the candidate to manage workload better.'
+              ],
+              correct: 2,
+              feedback: 'Separate isolated error from emerging pattern. Prompting may contaminate evidence unless needed for safety.'
+            },
+            {
+              label: 'Stage 3 — procedural error and recovery',
+              prompt: 'The candidate enters a frequency incorrectly, initially repeats the call, then identifies and corrects the entry without examiner assistance. Which statement is most accurate?',
+              options: [
+                'The incorrect frequency automatically determines the final result.',
+                'The event should be ignored because the candidate eventually corrected it.',
+                'Assess the error, recognition and recovery as part of the complete evidence story and determine whether it contributes to a wider pattern.',
+                'Immediately provide the correct frequency whenever a radio entry error occurs.'
+              ],
+              correct: 2,
+              feedback: 'The incorrect entry, recognition and independent recovery are all relevant evidence. Avoid an automatic outcome based on one procedural error.'
+            },
+            {
+              label: 'Stage 4 — recovery and mixed evidence',
+              prompt: 'The candidate performs the remaining items well after the frequency error. How should the recovery be treated?',
+              options: [
+                'It erases the earlier error.',
+                'It is irrelevant because an error occurred.',
+                'It provides useful evidence, but must be weighed alongside the original event rather than replacing it.',
+                'It guarantees competence because the candidate corrected the problem.'
+              ],
+              correct: 2,
+              feedback: 'Recovery can demonstrate recognition, checking discipline and effective correction, but it does not remove the original evidence.'
+            }
+          ]
+        },
+        '2': {
+          title: 'Block 2 — The Assessment That Changes',
+          stages: [
+            {
+              label: 'Stage 1 — before the assessment',
+              prompt: 'Records and aircraft are ready, weather is forecast to deteriorate and the candidate appears anxious. There is no regulatory reason not to commence. What should the examiner do?',
+              options: [
+                'Cancel because the candidate appears anxious.',
+                'Commence without further consideration because all requirements are satisfied.',
+                'Recognise the anxiety and weather as threats, determine whether they can be managed, and make a considered commencement decision.',
+                'Ask the instructor whether the candidate normally becomes nervous.'
+              ],
+              correct: 2,
+              feedback: 'The assessment may be legitimate to commence, but threats affecting fairness, workload or safety still require a considered decision. Anxiety is not itself evidence of incompetence.'
+            },
+            {
+              label: 'Stage 2 — workload increases',
+              prompt: 'A radio call is missed, a checklist item is omitted, navigation accuracy deteriorates temporarily and communication becomes less organised. What is the most appropriate interpretation?',
+              options: [
+                'The candidate has now failed because several errors occurred.',
+                'The errors should be ignored because earlier performance was strong.',
+                'Consider whether the observations represent isolated errors or an emerging workload-management pattern.',
+                'Tell the candidate to reduce workload.'
+              ],
+              correct: 2,
+              feedback: 'Continue observing the pattern, context and recovery while protecting safety. Early strong performance should neither excuse nor magnify what follows.'
+            },
+            {
+              label: 'Stage 3 — decision-making',
+              multi: true,
+              prompt: 'The candidate initially continues toward deteriorating weather, then diverts after receiving further information. Which evidence matters? Select all that apply.',
+              options: [
+                'The initial continuation toward deteriorating weather.',
+                'The alternatives that were available.',
+                'The additional information that influenced the later decision.',
+                'The eventual safe diversion.',
+                'The effectiveness of the diversion execution.'
+              ],
+              correct: [0, 1, 2, 3, 4],
+              feedback: 'All are relevant. Assess the complete decision process: information available, recognition, timing, alternatives, response to changing information and execution.'
+            }
+          ]
+        },
+        '3': {
+          title: 'Block 3 — The Difficult Debrief',
+          stages: [
+            {
+              label: 'Stage 1 — the debrief begins',
+              prompt: 'The approved standard has not been demonstrated and the candidate is surprised. Which opening is strongest?',
+              options: [
+                'Unfortunately, I’ve failed you because of the radio mistakes.',
+                'Most of the flight was very good, but I’ve got a problem with those frequencies.',
+                'State the outcome clearly, then explain the evidence and applicable standard.',
+                'Two frequency errors means I have no choice.'
+              ],
+              correct: 2,
+              feedback: 'Give a clear outcome, followed by the evidence and applicable standard. Do not convert a generic error count into an automatic rule.'
+            },
+            {
+              label: 'Stage 2 — candidate challenge',
+              prompt: 'The candidate says, “I fixed both frequencies and everything else was good.” Which response is strongest?',
+              options: [
+                'The corrections don’t matter.',
+                'I had already made my decision after the second error.',
+                'Acknowledge the corrections as relevant evidence, then explain the recurrence and reduced independence of recognition against the standard.',
+                'Two radio errors are always a fail.'
+              ],
+              correct: 2,
+              feedback: 'Acknowledge recovery and otherwise strong performance without allowing them to erase recurrence or reduced independence of recognition.'
+            },
+            {
+              label: 'Stage 3 — external pressure',
+              prompt: 'The candidate says the company needs them flying next week and asks you to put something in the notes instead. What is the strongest response?',
+              options: [
+                'I’ll see what I can do.',
+                'That isn’t my problem.',
+                'Acknowledge the operational consequence, but explain that it does not change the assessment standard.',
+                'The company should not have scheduled you.'
+              ],
+              correct: 2,
+              feedback: 'Acknowledge operational reality without allowing it to influence the standard. Remain neutral and avoid criticising the candidate or operator.'
+            },
+            {
+              label: 'Stage 4 — another examiner',
+              prompt: 'The candidate says another examiner would have passed. What is the strongest response?',
+              options: [
+                'I doubt it.',
+                'Then they would not be applying the standard properly.',
+                'Explain the evidence from this assessment and how you applied the required standard without speculating about a hypothetical assessment.',
+                'You are welcome to try another examiner.'
+              ],
+              correct: 2,
+              feedback: 'Standardisation does not require speculation about another examiner. Professional defensibility requires explanation of this assessment.'
+            },
+            {
+              label: 'Stage 5 — the written record',
+              prompt: 'Which record should you choose or draft?',
+              options: [
+                'Candidate failed communications. Two wrong frequencies.',
+                'Record both events, their different recognition and recovery characteristics, and the satisfactory remainder.',
+                'Candidate normally communicates well but made a couple of radio mistakes.',
+                'Two frequency errors = fail.'
+              ],
+              correct: 1,
+              feedback: 'Record the observed errors, different recovery characteristics and positive evidence from the remainder. Avoid vague labels or an invented automatic rule.'
+            }
+          ]
+        }
+      };
+
+      const selectedBlock = String((window.widgetProps || {}).block || '1');
+      const data = datasets[selectedBlock] || datasets['1'];
+      const host = document.getElementById('workshop-content');
+      let stageIndex = 0;
+      let committed = false;
+
+      function renderStage() {
+        const stage = data.stages[stageIndex];
+        committed = false;
+        host.innerHTML = '';
+
+        const progress = document.createElement('div');
+        progress.className = 'workshop-progress';
+        progress.innerHTML = '<div class="progress-bar"><div class="progress-fill" style="width:' + (((stageIndex + 1) / data.stages.length) * 100) + '%"></div></div><span>' + (stageIndex + 1) + ' of ' + data.stages.length + '</span>';
+        host.appendChild(progress);
+
+        const section = document.createElement('section');
+        section.className = 'decision-stage';
+        const label = document.createElement('div');
+        label.className = 'stage-label';
+        label.textContent = stage.label;
+        section.appendChild(label);
+
+        const question = document.createElement('div');
+        question.className = 'stage-question';
+        question.textContent = stage.prompt;
+        section.appendChild(question);
+
+        const choices = document.createElement('div');
+        choices.className = 'choice-list';
+        choices.setAttribute('role', stage.multi ? 'group' : 'radiogroup');
+        stage.options.forEach(function (option, index) {
+          const choice = document.createElement('label');
+          choice.className = 'choice';
+          const input = document.createElement('input');
+          input.type = stage.multi ? 'checkbox' : 'radio';
+          input.name = 'workshop-choice';
+          input.value = String(index);
+          input.addEventListener('change', function () {
+            commitButton.disabled = !choices.querySelector('input:checked');
+          });
+          const text = document.createElement('span');
+          text.textContent = option;
+          choice.appendChild(input);
+          choice.appendChild(text);
+          choices.appendChild(choice);
+        });
+        section.appendChild(choices);
+
+        const controls = document.createElement('div');
+        controls.className = 'widget-controls';
+        const commitButton = document.createElement('button');
+        commitButton.type = 'button';
+        commitButton.className = 'btn btn-primary';
+        commitButton.textContent = 'Commit decision';
+        commitButton.disabled = true;
+        controls.appendChild(commitButton);
+        section.appendChild(controls);
+
+        const feedback = document.createElement('div');
+        feedback.className = 'model-feedback';
+        feedback.hidden = true;
+        section.appendChild(feedback);
+
+        commitButton.addEventListener('click', function () {
+          if (committed) return;
+          const picked = Array.from(choices.querySelectorAll('input:checked')).map(function (input) {
+            return Number(input.value);
+          }).sort();
+          const expected = Array.isArray(stage.correct) ? stage.correct.slice().sort() : [stage.correct];
+          const isCorrect = picked.length === expected.length && picked.every(function (value, index) {
+            return value === expected[index];
+          });
+          committed = true;
+          choices.querySelectorAll('input').forEach(function (input) { input.disabled = true; });
+          commitButton.disabled = true;
+          feedback.hidden = false;
+          feedback.innerHTML = '<strong>' + (isCorrect ? 'Reasoning aligned with the model' : 'Compare your reasoning with the model') + '</strong>' + stage.feedback;
+
+          const nextButton = document.createElement('button');
+          nextButton.type = 'button';
+          nextButton.className = 'btn btn-secondary';
+          nextButton.textContent = stageIndex === data.stages.length - 1 ? 'Finish staged activity' : 'Next decision';
+          controls.appendChild(nextButton);
+          nextButton.addEventListener('click', function () {
+            if (stageIndex === data.stages.length - 1) {
+              host.innerHTML = '<div class="workshop-complete"><strong>' + data.title + '</strong>All staged decisions are complete. Continue with the written reflection in the lesson and compare your final position with the approved standard.</div>';
+              if (typeof window.__widgetReportHeight === 'function') window.__widgetReportHeight();
+              return;
+            }
+            stageIndex += 1;
+            renderStage();
+            if (typeof window.__widgetReportHeight === 'function') window.__widgetReportHeight();
+          });
+        });
+
+        host.appendChild(section);
+      }
+
+      renderStage();
+    })();
+  </script>
+  <script>
+    if (typeof window.__widgetReportHeight === 'function') {
+      window.__widgetReportHeight();
+    }
+    requestAnimationFrame(function() {
+      if (typeof window.__widgetReportHeight === 'function') {
+        window.__widgetReportHeight();
+      }
+      window.parent.postMessage({ type: 'widget-ready' }, '*');
+    });
+  </script>
+</body>
+</html>

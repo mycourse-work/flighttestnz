@@ -22,6 +22,10 @@ is stronger than:
 
 The first demonstrates professional judgement. The second risks making experience itself the standard.
 
+## Experience as a control, not a shortcut
+
+Experience can help you recognise a developing pattern earlier and ask better questions. It can also make routine feel self-evident. When a decision feels obvious, use the same discipline you would expect from a less experienced examiner: state the evidence, standard, reasoning and outcome.
+
 ## Professional examiner behaviour
 
 - preparedness;
@@ -36,6 +40,16 @@ The first demonstrates professional judgement. The second risks making experienc
 - openness to calibration with other examiners.
 
 You are part of the assessment environment. Tone, questioning style, body language and visible reactions can influence candidate performance.
+
+## Professional identity across the assessment
+
+| Moment | Professional discipline |
+| --- | --- |
+| Before | Prepare, confirm scope and standard, and identify any relationship or pressure that could affect independence. |
+| During | Observe without coaching, communicate with calm authority, and record sufficient evidence while protecting situational awareness. |
+| After | Explain the outcome clearly, acknowledge the candidate’s reaction, and preserve a record that supports later reconstruction. |
+
+This is not a demand for a single examiner personality. It is a way to keep authority connected to evidence, standards, respect and accountability.
 
 <div class="reflection" data-id="block-3-examiner-identity" data-min-chars="0">
 <div class="reflection-prompt"><strong>Reflection — what do candidates experience?</strong><br>If candidates were asked to describe you as an examiner, what three words would you hope they would use? Would those same three words also describe the way another examiner sees your professional practice?</div>

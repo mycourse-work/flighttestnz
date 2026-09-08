@@ -2,11 +2,18 @@
 
 Work through this case independently. Commit to each decision before comparing your reasoning with the FTNZ model reasoning in the knowledge check.
 
+> **Scope note:** This is a calibration reasoning exercise. The supplied source does not identify a particular FTNZ competency or assessment criterion, so do not infer an automatic outcome from the scenario. Use the approved standard applicable to the assessment when making the final decision.
+
+:::widget ftnz-calibration-workshop
+block: 2
+title: Block 2 staged calibration workshop
+:::
+
 ## Stage 1 — before the assessment
 
 A CPL candidate arrives for a flight test. Required records are present. The aircraft is serviceable and legally available. Weather is suitable but forecast to deteriorate later. The candidate appears noticeably anxious. There is no regulatory reason not to commence.
 
-Recognise the anxiety and weather as threats, determine whether they can be managed, and make a considered commencement decision. Candidate anxiety is not itself evidence of incompetence.
+**Decision:** Recognise the anxiety and weather as potential threats, determine whether they can be managed, and make a considered commencement decision. Candidate anxiety is not itself evidence of incompetence.
 
 ## Stage 2 — early performance
 
@@ -14,19 +21,19 @@ The first part of the assessment is strong. The candidate demonstrates accurate 
 
 **Reflection:** What examiner judgement risk may now be developing?
 
-Consider the halo effect or a premature positive conclusion. A strong start is evidence, but it should not become a prediction of the final outcome.
+**Decision:** Identify the judgement risk before continuing. A strong start is evidence, but it should not become a prediction of the final outcome.
 
 ## Stage 3 — workload increases
 
 Weather deteriorates faster than forecast. ATC changes the expected routing. The candidate becomes noticeably busier. During the next fifteen minutes, one radio call is missed, a checklist item is omitted, navigation accuracy deteriorates temporarily and communication becomes shorter and less organised. The candidate corrects each problem when recognised.
 
-Consider whether these observations represent isolated errors or an emerging workload-management pattern. Continue observing the pattern, context and recovery while protecting safety. Early strong performance should neither excuse nor magnify what follows.
+**Decision:** Determine whether these observations represent isolated errors or an emerging workload-management pattern. Continue observing the pattern, context and recovery while protecting safety. Early strong performance should neither excuse nor magnify what follows.
 
 ## Stage 4 — decision-making
 
 The weather ahead continues to deteriorate. Several alternatives remain available. The candidate initially continues. After receiving further weather information, the candidate decides to divert. The diversion is safe and appropriately executed.
 
-All of the following matter: the initial continuation, the available alternatives, the additional information, the later decision and the effectiveness of the diversion. Assess the complete decision process, not only the eventual safe outcome.
+**Decision:** Consider the complete decision process: the initial continuation, available alternatives, additional information, later decision and effectiveness of the diversion. Do not assess only the eventual safe outcome.
 
 ## Stage 5 — recovery
 

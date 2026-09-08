@@ -4,6 +4,8 @@ This workshop places the examiner in a situation where the assessment decision i
 
 Work through the case independently. Commit to each decision before comparing your reasoning with the model reasoning in the knowledge check.
 
+![Aviation examiner and pilot conducting a calm evidence-based post-assessment debrief](./assets/professional-debrief-scene.png)
+
 ## Stage 1 — the assessment
 
 An experienced candidate completes a flight assessment. Most technical handling is strong. During two separate frequency changes, however, the candidate enters an incorrect radio frequency.
@@ -12,7 +14,12 @@ On the first occasion there is no response to the call; the candidate checks the
 
 The remainder of the assessment is satisfactory and there is no safety consequence from either event. The candidate appears pleased with the overall performance.
 
-All of the following are relevant: the first incorrect entry; independent recognition and correction on the first occasion; recurrence; the need for a neutral examiner question on the second occasion; successful correction after recognition; and otherwise strong technical performance and a satisfactory remainder.
+> **Scope note:** This is a calibration reasoning exercise. The supplied source does not identify a particular FTNZ competency or assessment criterion, so do not infer an automatic outcome from the scenario. Use the approved standard applicable to the assessment when making the final decision.
+
+:::widget ftnz-calibration-workshop
+block: 3
+title: Block 3 staged calibration workshop
+:::
 
 ## Stage 2 — commit to the reasoning
 
@@ -23,39 +30,31 @@ All of the following are relevant: the first incorrect entry; independent recogn
 
 ## Stage 3 — the debrief begins
 
-Assume that, when the applicable assessment standard is applied to the repeated frequency-selection errors and the wider evidence, you conclude that the required standard has not been demonstrated. The candidate is visibly surprised.
+Assume that, when the approved assessment standard is applied to the repeated frequency-selection errors and the wider evidence, you conclude that the required standard has not been demonstrated. The candidate is visibly surprised.
 
-The strongest opening gives the outcome clearly, then explains the evidence and applicable standard:
-
-> “The assessment outcome is that the required standard has not been demonstrated today. I’ll take you through the evidence that led to that decision.”
+**Decision:** Draft your opening before checking the model feedback. It should state the outcome clearly, then signal that you will explain the evidence and applicable standard.
 
 ## Stage 4 — candidate challenge
 
 The candidate says: “But I fixed both frequencies and everything else was good. Surely a couple of radio mistakes shouldn’t fail the whole flight.”
 
-The strongest response acknowledges recovery and otherwise strong performance without allowing those strengths to erase recurrence or reduced independence of recognition:
-
-> “Your corrections are relevant evidence and I have considered them. The concern is the recurrence of the same error and that the second one was not recognised until I asked you to confirm the selected frequency. Let me explain how that evidence relates to the required standard.”
+**Decision:** Respond without dismissing the candidate’s corrections or allowing recovery and otherwise strong performance to erase recurrence or reduced independence of recognition. Keep the response anchored to the evidence and applicable standard.
 
 ## Stage 5 — external pressure appears
 
 The candidate says: “My company needs me flying next week. Can’t you just put something in the notes and let my training department deal with it?”
 
-The professional response is:
-
-> “I understand there may be operational consequences, but they don’t change the assessment standard I am required to apply.”
+**Decision:** Acknowledge the operational consequence without allowing it to change the assessment standard or invite negotiation of the current outcome.
 
 ## Stage 6 — another examiner
 
 The candidate continues: “I’m telling you, another examiner would pass that.”
 
-Do not speculate about a hypothetical assessment. Explain the evidence from this assessment and how you applied the required standard.
+**Decision:** Respond to the hypothetical comparison by returning to the evidence from this assessment and explaining how you applied the required standard. Do not criticise or speculate about another examiner.
 
 ## Stage 7 — the written record
 
-The strongest core evidence note records the observed errors, the different recovery characteristics and the positive evidence from the remainder:
-
-> “Incorrect frequency selected on two separate frequency changes. First error identified and corrected independently after no response. Second error repeated; candidate did not identify incorrect selection until asked to confirm selected frequency, then corrected appropriately. Remaining technical performance satisfactory.”
+**Decision:** Choose or draft a core evidence note that records both observed errors, the different recognition characteristics, the subsequent correction and the positive evidence from the remainder. Avoid an automatic “two errors = fail” label.
 
 <div class="reflection" data-id="block-3-difficult-debrief" data-min-chars="80">
 <div class="reflection-prompt"><strong>Mandatory final reflection</strong><br>Which part of this scenario would you personally find most difficult: making the decision, delivering the outcome, managing the candidate’s reaction, or documenting the evidence? Why?</div>

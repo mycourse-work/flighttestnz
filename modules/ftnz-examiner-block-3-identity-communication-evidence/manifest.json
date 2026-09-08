@@ -1,0 +1,22 @@
+{
+  "id": "ftnz-examiner-block-3-identity-communication-evidence",
+  "title": "Block 3 — Examiner Identity, Communication and Evidence",
+  "description": "Exercise delegated authority with professional restraint, gather uncontaminated evidence, manage difficult conversations and keep defensible records.",
+  "estimatedDuration": "Approximately 80 minutes",
+  "tags": [
+    "aviation-examiner",
+    "examiner-identity",
+    "communication",
+    "evidence",
+    "defensible-records"
+  ],
+  "lessons": [
+    { "id": "experienced-examiner", "title": "The Experienced Examiner", "type": "content", "markdownPath": "01-experienced-examiner.md" },
+    { "id": "communication-without-coaching", "title": "Communication Without Coaching", "type": "content", "markdownPath": "02-communication-without-coaching.md" },
+    { "id": "difficult-conversations-candidate-reactions", "title": "Difficult Conversations and Candidate Reactions", "type": "content", "markdownPath": "03-difficult-conversations-candidate-reactions.md" },
+    { "id": "evidence-notes-defensible-records", "title": "Evidence, Notes and Defensible Records", "type": "content", "markdownPath": "04-evidence-notes-defensible-records.md" },
+    { "id": "calibration-workshop-difficult-debrief", "title": "Calibration Workshop — The Difficult Debrief", "type": "content", "markdownPath": "05-calibration-workshop-difficult-debrief.md" },
+    { "id": "block-review-completion", "title": "Review and Completion", "type": "content", "markdownPath": "06-review-completion.md" },
+    { "id": "block-3-knowledge-check", "title": "Block 3 Knowledge Check", "type": "quiz", "quizPath": "quiz.json" }
+  ]
+}

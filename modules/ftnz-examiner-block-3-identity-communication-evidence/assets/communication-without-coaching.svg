@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Communication without coaching</title>
+  <desc id="desc">A split path contrasts a neutral question that obtains evidence with a leading prompt that influences evidence.</desc>
+  <rect width="1600" height="900" fill="#f7f9fc"/>
+  <rect x="70" y="60" width="1460" height="780" rx="28" fill="#ffffff" stroke="#d7e0ef" stroke-width="3"/>
+  <text x="130" y="145" fill="#092c73" font-family="Arial, sans-serif" font-size="52" font-weight="700">Communication without coaching</text>
+  <text x="130" y="195" fill="#53627a" font-family="Arial, sans-serif" font-size="27">Before asking: am I obtaining evidence — or creating it?</text>
+  <path d="M800 285 L800 350 L455 420" fill="none" stroke="#092c73" stroke-width="8"/>
+  <path d="M800 350 L1145 420" fill="none" stroke="#e8000b" stroke-width="8"/>
+  <circle cx="800" cy="260" r="55" fill="#092c73"/><text x="800" y="277" fill="#ffffff" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">Question</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="160" y="420" width="570" height="230" rx="22" fill="#eaf0fb" stroke="#092c73" stroke-width="4"/>
+    <rect x="870" y="420" width="570" height="230" rx="22" fill="#fff0f1" stroke="#e8000b" stroke-width="4"/>
+    <text x="445" y="485" fill="#092c73" font-size="36" font-weight="700" text-anchor="middle">Neutral clarification</text>
+    <text x="1155" y="485" fill="#a60008" font-size="36" font-weight="700" text-anchor="middle">Leading prompt</text>
+    <text x="210" y="550" fill="#263b5b" font-size="27">“Talk me through your current plan.”</text>
+    <text x="920" y="550" fill="#a60008" font-size="27">“Are you happy with that weather ahead?”</text>
+    <text x="445" y="610" fill="#092c73" font-size="25" text-anchor="middle">reveals candidate thinking / obtains evidence</text>
+    <text x="1155" y="610" fill="#a60008" font-size="25" text-anchor="middle">identifies the threat or desired action</text>
+  </g>
+  <text x="800" y="745" fill="#092c73" font-family="Arial, sans-serif" font-size="36" font-weight="700" text-anchor="middle">Clarify the assessment. Do not supply the answer.</text>
+</svg>

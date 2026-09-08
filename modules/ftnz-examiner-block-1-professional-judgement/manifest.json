@@ -1,0 +1,22 @@
+{
+  "id": "ftnz-examiner-block-1-professional-judgement",
+  "title": "Block 1 — Professional Judgement, Live Conduct and Calibration",
+  "description": "Maintain independent, evidence-based examiner judgement during live assessments, difficult decisions and professional debriefs.",
+  "estimatedDuration": "Approximately 75 minutes",
+  "tags": [
+    "aviation-examiner",
+    "professional-judgement",
+    "calibration",
+    "assessment-evidence"
+  ],
+  "lessons": [
+    { "id": "maintaining-examiner-standard", "title": "Maintaining the Examiner Standard", "type": "content", "markdownPath": "01-maintaining-examiner-standard.md" },
+    { "id": "authority-independence-drift", "title": "Authority, Independence and Examiner Drift", "type": "content", "markdownPath": "02-authority-independence-drift.md" },
+    { "id": "conducting-assessment", "title": "Conducting the Assessment", "type": "content", "markdownPath": "03-conducting-assessment.md" },
+    { "id": "difficult-assessment-decisions", "title": "Difficult Assessment Decisions", "type": "content", "markdownPath": "04-difficult-assessment-decisions.md" },
+    { "id": "professional-debriefing", "title": "Professional Debriefing", "type": "content", "markdownPath": "05-professional-debriefing.md" },
+    { "id": "calibration-workshop-mixed-evidence", "title": "Calibration Workshop — Mixed Evidence Under Pressure", "type": "content", "markdownPath": "06-calibration-workshop-mixed-evidence.md" },
+    { "id": "block-review-completion", "title": "Block Review and Completion", "type": "content", "markdownPath": "07-block-review-completion.md" },
+    { "id": "block-1-knowledge-check", "title": "Block 1 Knowledge Check", "type": "quiz", "quizPath": "quiz.json" }
+  ]
+}

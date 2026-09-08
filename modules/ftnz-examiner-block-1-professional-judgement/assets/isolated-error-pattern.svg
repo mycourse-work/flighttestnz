@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Isolated error or emerging pattern</title>
+  <desc id="desc">An evidence pathway from error through recognition, recovery, recurrence or pattern, and comparison with the applicable standard.</desc>
+  <rect width="1600" height="900" fill="#f7f9fc"/>
+  <rect x="70" y="60" width="1460" height="780" rx="28" fill="#ffffff" stroke="#d7e0ef" stroke-width="3"/>
+  <text x="130" y="145" fill="#092c73" font-family="Arial, sans-serif" font-size="52" font-weight="700">Isolated error or emerging pattern?</text>
+  <text x="130" y="195" fill="#53627a" font-family="Arial, sans-serif" font-size="27">Treat the event, recognition and recovery as one evidence story.</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="125" y="315" width="210" height="130" rx="18" fill="#fff0f1" stroke="#e8000b" stroke-width="3"/>
+    <text x="230" y="392" fill="#a60008" font-size="38" font-weight="700">Error</text>
+    <text x="375" y="380" fill="#e8000b" font-size="52">→</text>
+    <rect x="420" y="315" width="220" height="130" rx="18" fill="#eaf0fb" stroke="#092c73" stroke-width="3"/>
+    <text x="530" y="392" fill="#092c73" font-size="35" font-weight="700">Recognition</text>
+    <text x="680" y="380" fill="#e8000b" font-size="52">→</text>
+    <rect x="725" y="315" width="210" height="130" rx="18" fill="#eaf0fb" stroke="#092c73" stroke-width="3"/>
+    <text x="830" y="392" fill="#092c73" font-size="38" font-weight="700">Recovery</text>
+    <text x="975" y="380" fill="#e8000b" font-size="52">→</text>
+    <rect x="1020" y="315" width="220" height="130" rx="18" fill="#fff4e8" stroke="#e29335" stroke-width="3"/>
+    <text x="1130" y="370" fill="#80510e" font-size="31" font-weight="700">Recurrence /</text>
+    <text x="1130" y="408" fill="#80510e" font-size="31" font-weight="700">pattern</text>
+    <text x="1280" y="380" fill="#e8000b" font-size="52">→</text>
+    <rect x="1325" y="315" width="150" height="130" rx="18" fill="#eaf0fb" stroke="#092c73" stroke-width="3"/>
+    <text x="1400" y="392" fill="#092c73" font-size="35" font-weight="700">Standard</text>
+  </g>
+  <rect x="180" y="535" width="1240" height="160" rx="22" fill="#092c73"/>
+  <text x="800" y="600" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="middle">One error is evidence.</text>
+  <text x="800" y="648" fill="#ffffff" font-family="Arial, sans-serif" font-size="29" text-anchor="middle">Its significance depends on context, recognition, recovery, recurrence</text>
+  <text x="800" y="685" fill="#ffffff" font-family="Arial, sans-serif" font-size="29" text-anchor="middle">and the applicable standard.</text>
+  <text x="800" y="770" fill="#a60008" font-family="Arial, sans-serif" font-size="27" font-weight="700" text-anchor="middle">Example: an incorrect radio frequency recognised and corrected independently.</text>
+</svg>

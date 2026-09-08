@@ -1,0 +1,213 @@
+{
+  "title": "Block 1 Knowledge Check — Professional Judgement, Live Conduct and Calibration",
+  "type": "quiz",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": "b1-purpose-recurrent-development",
+      "questionNumber": 1,
+      "type": "MULTIPLE_CHOICE",
+      "question": "Which statement best describes the purpose of recurrent examiner professional development?",
+      "answers": [
+        { "id": "b1q1-a", "text": "Repeat the initial Examiner Course every two years.", "correct": false },
+        { "id": "b1q1-b", "text": "Maintain currency, reflection, evidence discipline and examiner calibration.", "correct": true },
+        { "id": "b1q1-c", "text": "Ensure every examiner uses an identical assessment technique.", "correct": false },
+        { "id": "b1q1-d", "text": "Replace the examiner’s responsibility to remain current with regulatory material.", "correct": false }
+      ],
+      "feedback": "Correct response: B. Recurrent development assumes foundational knowledge is already established. Its purpose is to maintain current, reflective and standardised professional practice."
+    },
+    {
+      "id": "b1-intuition-and-evidence",
+      "questionNumber": 2,
+      "type": "MULTIPLE_CHOICE",
+      "question": "An experienced examiner’s professional intuition:",
+      "answers": [
+        { "id": "b1q2-a", "text": "Can replace recorded evidence when the examiner is highly experienced.", "correct": false },
+        { "id": "b1q2-b", "text": "Should never influence an assessment.", "correct": false },
+        { "id": "b1q2-c", "text": "Can help recognise patterns, but conclusions must still be supported by evidence and standards.", "correct": true },
+        { "id": "b1q2-d", "text": "Is more reliable than the published assessment standard.", "correct": false }
+      ],
+      "feedback": "Correct response: C. Experience can sharpen recognition, but assessment conclusions must remain anchored to observable evidence and the applicable standard."
+    },
+    {
+      "id": "b1-familiar-candidate-evidence",
+      "questionNumber": 3,
+      "type": "MULTIPLE_CHOICE",
+      "question": "You are assessing a familiar, well-regarded candidate while the operator is short of qualified personnel. Which information should carry the greatest weight?",
+      "answers": [
+        { "id": "b1q3-a", "text": "The candidate’s previous strong performance.", "correct": false },
+        { "id": "b1q3-b", "text": "The operator’s confidence in the candidate.", "correct": false },
+        { "id": "b1q3-c", "text": "The observable evidence from today’s assessment.", "correct": true },
+        { "id": "b1q3-d", "text": "The operational consequences of an unsuccessful outcome.", "correct": false }
+      ],
+      "feedback": "Preferred response: C. Previous performance and operational context may influence the examiner, but they do not replace evidence from the current assessment."
+    },
+    {
+      "id": "b1-incorrect-frequency",
+      "questionNumber": 4,
+      "type": "MULTIPLE_CHOICE",
+      "question": "A candidate enters one digit of a radio frequency incorrectly, then independently identifies and corrects it after no response. What is the best examiner response?",
+      "answers": [
+        { "id": "b1q4-a", "text": "Treat the error itself as evidence that the required standard has not been met.", "correct": false },
+        { "id": "b1q4-b", "text": "Continue the assessment and consider the error, recognition and recovery in context with the rest of the evidence.", "correct": true },
+        { "id": "b1q4-c", "text": "Ignore the event completely because communication was eventually established.", "correct": false },
+        { "id": "b1q4-d", "text": "Immediately tell the candidate which digit was entered incorrectly.", "correct": false }
+      ],
+      "feedback": "Preferred response: B. The error is observable evidence, but its significance depends on context, recognition, independence, recovery, recurrence and the applicable standard. Recovery adds evidence; it does not erase the original error."
+    },
+    {
+      "id": "b1-difficult-decision-first-question",
+      "questionNumber": 5,
+      "type": "MULTIPLE_CHOICE",
+      "question": "A highly experienced candidate has strong technical skill, the operator is short of personnel, and a significant lapse in judgement appears near the end of the assessment. Which question should the examiner answer first?",
+      "answers": [
+        { "id": "b1q5-a", "text": "Will the operator be able to replace the candidate?", "correct": false },
+        { "id": "b1q5-b", "text": "Is the candidate usually competent?", "correct": false },
+        { "id": "b1q5-c", "text": "What exactly was observed, and which standard or competency does it relate to?", "correct": true },
+        { "id": "b1q5-d", "text": "Would failing the candidate be disproportionate after an otherwise strong test?", "correct": false }
+      ],
+      "feedback": "Preferred response: C. The decision process must begin with observable evidence and its relationship to the standard, not operational consequence or reputation."
+    },
+    {
+      "id": "b1-isolated-significant-event",
+      "questionNumber": 6,
+      "type": "MULTIPLE_CHOICE",
+      "question": "The evidence is significant but isolated, and there is no further valid opportunity to gather more evidence. Which statement is most appropriate?",
+      "answers": [
+        { "id": "b1q6-a", "text": "An isolated event can never determine an assessment outcome.", "correct": false },
+        { "id": "b1q6-b", "text": "A single event may be decisive if its severity and relationship to the standard justify that weight.", "correct": true },
+        { "id": "b1q6-c", "text": "Strong technical performance should always outweigh one judgement concern.", "correct": false },
+        { "id": "b1q6-d", "text": "The candidate should automatically receive the benefit of the doubt.", "correct": false }
+      ],
+      "feedback": "Preferred response: B. Pattern matters, but severity matters too. Consider context, consequence, independence, recovery and the precise requirements of the standard."
+    },
+    {
+      "id": "b1-stronger-debrief",
+      "questionNumber": 7,
+      "type": "MULTIPLE_CHOICE",
+      "question": "Which debrief statement is more defensible?",
+      "answers": [
+        { "id": "b1q7-a", "text": "I don’t think you showed enough situational awareness today.", "correct": false },
+        { "id": "b1q7-b", "text": "During the arrival you did not identify the conflicting traffic despite two opportunities, and the scan was not re-established until after the traffic alert.", "correct": true }
+      ],
+      "feedback": "Preferred response: B. It describes observable behaviour and provides a clearer evidence trail for the assessment judgement."
+    },
+    {
+      "id": "b1-workshop-commencement",
+      "questionNumber": 8,
+      "type": "MULTIPLE_CHOICE",
+      "question": "In the mixed-evidence workshop, an administrative prerequisite appears incomplete although the operator says the underlying training was completed. What should drive the commencement decision?",
+      "answers": [
+        { "id": "b1q8-a", "text": "Likely candidate competence.", "correct": false },
+        { "id": "b1q8-b", "text": "Operational need.", "correct": false },
+        { "id": "b1q8-c", "text": "Whether the required preconditions for a valid assessment are actually satisfied.", "correct": true },
+        { "id": "b1q8-d", "text": "The examiner’s previous knowledge of the candidate.", "correct": false }
+      ],
+      "feedback": "Preferred response: C. Competence and assessment validity are related but separate. Confirm that the assessment can legitimately commence within current requirements and authority."
+    },
+    {
+      "id": "b1-workshop-workload-pattern",
+      "questionNumber": 9,
+      "type": "MULTIPLE_CHOICE",
+      "question": "During a later high-workload phase, the candidate misses a radio call, omits one checklist item and allows navigation accuracy to deteriorate. Each event is recoverable. What should the examiner do?",
+      "answers": [
+        { "id": "b1q9-a", "text": "Fail immediately because three errors have occurred.", "correct": false },
+        { "id": "b1q9-b", "text": "Ignore the issues because each was recoverable.", "correct": false },
+        { "id": "b1q9-c", "text": "Continue gathering evidence and assess whether the events form a meaningful workload or situational-awareness pattern.", "correct": true },
+        { "id": "b1q9-d", "text": "Prompt the candidate to manage workload better.", "correct": false }
+      ],
+      "feedback": "Preferred response: C. Separate isolated error from emerging pattern. Prompting may contaminate evidence unless needed for safety."
+    },
+    {
+      "id": "b1-workshop-frequency-pattern",
+      "questionNumber": 10,
+      "type": "MULTIPLE_CHOICE",
+      "question": "During a later phase, the candidate enters a frequency incorrectly, initially repeats the call, then independently identifies and corrects the entry. Which statement is most accurate?",
+      "answers": [
+        { "id": "b1q10-a", "text": "The incorrect frequency automatically determines the final result.", "correct": false },
+        { "id": "b1q10-b", "text": "The event should be ignored because the candidate eventually corrected it.", "correct": false },
+        { "id": "b1q10-c", "text": "Assess the error, recognition and recovery as part of the complete evidence story and determine whether it is isolated or contributes to a wider pattern.", "correct": true },
+        { "id": "b1q10-d", "text": "Immediately provide the correct frequency whenever a radio entry error occurs.", "correct": false }
+      ],
+      "feedback": "Preferred response: C. The incorrect entry, recognition and independent recovery are all relevant evidence. Avoid an automatic outcome based on one procedural error."
+    },
+    {
+      "id": "b1-workshop-recovery",
+      "questionNumber": 11,
+      "type": "MULTIPLE_CHOICE",
+      "question": "After a frequency error, the candidate demonstrates stronger cross-checking and performs the remaining items well. How should the recovery be treated?",
+      "answers": [
+        { "id": "b1q11-a", "text": "It erases the earlier error.", "correct": false },
+        { "id": "b1q11-b", "text": "It is irrelevant because an error occurred.", "correct": false },
+        { "id": "b1q11-c", "text": "It provides useful evidence, but must be weighed alongside the original event rather than replacing it.", "correct": true },
+        { "id": "b1q11-d", "text": "It guarantees competence because the candidate corrected the problem.", "correct": false }
+      ],
+      "feedback": "Preferred response: C. Recovery can demonstrate recognition, checking discipline and effective correction, but it does not remove the original evidence."
+    },
+    {
+      "id": "b1-pressure-standard",
+      "questionNumber": 12,
+      "type": "MULTIPLE_CHOICE",
+      "question": "When operational pressure exists, which factor should determine the assessment standard applied?",
+      "answers": [
+        { "id": "b1q12-a", "text": "Candidate experience.", "correct": false },
+        { "id": "b1q12-b", "text": "Operator need.", "correct": false },
+        { "id": "b1q12-c", "text": "Published requirements and current assessment evidence.", "correct": true },
+        { "id": "b1q12-d", "text": "Examiner familiarity.", "correct": false }
+      ],
+      "feedback": "Correct response: C. Operational pressure may be real, but it does not alter the applicable standard or the evidence required."
+    },
+    {
+      "id": "b1-definition-examiner-drift",
+      "questionNumber": 13,
+      "type": "MULTIPLE_CHOICE",
+      "question": "What is the best description of examiner drift in this programme?",
+      "answers": [
+        { "id": "b1q13-a", "text": "Any development in examiner technique.", "correct": false },
+        { "id": "b1q13-b", "text": "Gradual movement away from shared interpretation or application of the required standard.", "correct": true },
+        { "id": "b1q13-c", "text": "A formal CAA enforcement action.", "correct": false },
+        { "id": "b1q13-d", "text": "Any disagreement between two examiners.", "correct": false }
+      ],
+      "feedback": "Correct response: B. Professional practice should evolve. Drift refers to movement away from shared standards or their consistent application."
+    },
+    {
+      "id": "b1-final-frequency",
+      "questionNumber": 14,
+      "type": "MULTIPLE_CHOICE",
+      "question": "A candidate enters an incorrect frequency, recognises it independently and corrects it. What should the examiner do?",
+      "answers": [
+        { "id": "b1q14-a", "text": "Ignore the original error because recovery occurred.", "correct": false },
+        { "id": "b1q14-b", "text": "Treat the error as an automatic failure.", "correct": false },
+        { "id": "b1q14-c", "text": "Consider both the error and the recovery in context with the wider evidence and applicable standard.", "correct": true },
+        { "id": "b1q14-d", "text": "Repeat the exercise until it is performed correctly.", "correct": false }
+      ],
+      "feedback": "Correct response: C. The original error and the independent recovery are both relevant evidence and must be considered with the wider assessment pattern and standard."
+    },
+    {
+      "id": "b1-final-recovery",
+      "questionNumber": 15,
+      "type": "MULTIPLE_CHOICE",
+      "question": "How should strong recovery after an error be treated?",
+      "answers": [
+        { "id": "b1q15-a", "text": "It always cancels the original error.", "correct": false },
+        { "id": "b1q15-b", "text": "It is irrelevant.", "correct": false },
+        { "id": "b1q15-c", "text": "It is additional evidence that must be weighed with the original event.", "correct": true },
+        { "id": "b1q15-d", "text": "It automatically changes a fail to a pass.", "correct": false }
+      ],
+      "feedback": "Correct response: C. Recovery may demonstrate recognition and resilience, but it does not erase the original evidence."
+    },
+    {
+      "id": "b1-final-defensible-note",
+      "questionNumber": 16,
+      "type": "MULTIPLE_CHOICE",
+      "question": "Which note is most defensible?",
+      "answers": [
+        { "id": "b1q16-a", "text": "Poor judgement.", "correct": false },
+        { "id": "b1q16-b", "text": "Weak situational awareness.", "correct": false },
+        { "id": "b1q16-c", "text": "Continued approach after agreed stabilisation criteria were not met.", "correct": true },
+        { "id": "b1q16-d", "text": "Candidate seemed stressed.", "correct": false }
+      ],
+      "feedback": "Correct response: C. The strongest note records specific observable behaviour that can be linked to the standard."
+    }
+  ]
+}

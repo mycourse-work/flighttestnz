@@ -1,0 +1,22 @@
+{
+  "id": "ftnz-examiner-block-2-readiness-human-performance",
+  "title": "Block 2 — Readiness, Human Performance and Calibration",
+  "description": "Evaluate assessment readiness and interpret human-performance evidence without collapsing observation, context, recovery and competence into one impression.",
+  "estimatedDuration": "Approximately 80 minutes",
+  "tags": [
+    "aviation-examiner",
+    "assessment-readiness",
+    "human-performance",
+    "TEM",
+    "calibration"
+  ],
+  "lessons": [
+    { "id": "assessment-readiness-legitimacy", "title": "Assessment Readiness and Legitimacy", "type": "content", "markdownPath": "01-assessment-readiness-legitimacy.md" },
+    { "id": "cumulative-risk-go-no-go", "title": "Cumulative Risk and the Go/No-Go Decision", "type": "content", "markdownPath": "02-cumulative-risk-go-no-go.md" },
+    { "id": "interpreting-human-performance", "title": "Interpreting Human Performance", "type": "content", "markdownPath": "03-interpreting-human-performance.md" },
+    { "id": "errors-recovery-examiner-bias", "title": "Errors, Recovery and Examiner Bias", "type": "content", "markdownPath": "04-errors-recovery-examiner-bias.md" },
+    { "id": "calibration-workshop-assessment-changes", "title": "Calibration Workshop — The Assessment That Changes", "type": "content", "markdownPath": "05-calibration-workshop-assessment-changes.md" },
+    { "id": "block-review-completion", "title": "Review and Completion", "type": "content", "markdownPath": "06-review-completion.md" },
+    { "id": "block-2-knowledge-check", "title": "Block 2 Knowledge Check", "type": "quiz", "quizPath": "quiz.json" }
+  ]
+}

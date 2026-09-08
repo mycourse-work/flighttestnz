@@ -1,0 +1,204 @@
+{
+  "title": "Block 3 Knowledge Check — Examiner Identity, Communication and Evidence",
+  "type": "quiz",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": "b3-experienced-professionalism",
+      "questionNumber": 1,
+      "type": "MULTIPLE_CHOICE",
+      "question": "Which statement best reflects experienced examiner professionalism?",
+      "answers": [
+        { "id": "b3q1-a", "text": "Experience gives the examiner greater discretion to adapt published standards.", "correct": false },
+        { "id": "b3q1-b", "text": "Experience reduces the need to explain decisions.", "correct": false },
+        { "id": "b3q1-c", "text": "Experience should improve the examiner’s ability to apply and explain the required standard.", "correct": true },
+        { "id": "b3q1-d", "text": "Experienced examiners should rely primarily on professional intuition.", "correct": false }
+      ],
+      "feedback": "Correct response: C. Experience should strengthen professional judgement and make reasoning more efficient. It does not enlarge delegated authority or replace evidence and standards."
+    },
+    {
+      "id": "b3-helpful-examiner",
+      "questionNumber": 2,
+      "type": "MULTIPLE_CHOICE",
+      "question": "During a frequency-change exercise, the examiner asks, “Are you sure you entered the right frequency?” before the candidate checks the selection. What is the main assessment concern?",
+      "answers": [
+        { "id": "b3q2-a", "text": "The candidate corrected the frequency too quickly.", "correct": false },
+        { "id": "b3q2-b", "text": "The examiner’s question identified the likely error for the candidate and influenced the evidence.", "correct": true },
+        { "id": "b3q2-c", "text": "Examiners should never ask questions during an assessment.", "correct": false },
+        { "id": "b3q2-d", "text": "An incorrect frequency should automatically determine the assessment outcome.", "correct": false }
+      ],
+      "feedback": "Preferred response: B. The eventual correction may be appropriate, but the leading question changed the evidential value of how independently the candidate would have recognised the selection error."
+    },
+    {
+      "id": "b3-another-examiner",
+      "questionNumber": 3,
+      "type": "MULTIPLE_CHOICE",
+      "question": "A candidate says another examiner would have passed the performance. Which response is strongest?",
+      "answers": [
+        { "id": "b3q3-a", "text": "Well, I’m the examiner today.", "correct": false },
+        { "id": "b3q3-b", "text": "Then the other examiner was wrong.", "correct": false },
+        { "id": "b3q3-c", "text": "I can’t comment on another assessment. Let me explain the evidence from today’s assessment and how it relates to the required standard.", "correct": true },
+        { "id": "b3q3-d", "text": "If you disagree, you can complain to CAA.", "correct": false }
+      ],
+      "feedback": "Preferred response: C. Explain the current decision from the current evidence and applicable standard without defending or criticising another examiner."
+    },
+    {
+      "id": "b3-defensible-note",
+      "questionNumber": 4,
+      "type": "MULTIPLE_CHOICE",
+      "question": "Which note provides the strongest evidence trail?",
+      "answers": [
+        { "id": "b3q4-a", "text": "Candidate weak under pressure.", "correct": false },
+        { "id": "b3q4-b", "text": "Poor workload management.", "correct": false },
+        { "id": "b3q4-c", "text": "During high-workload arrival, missed two radio calls, omitted landing checklist and exceeded assigned altitude by approximately 150 ft before correcting.", "correct": true },
+        { "id": "b3q4-d", "text": "Candidate needs more practice.", "correct": false }
+      ],
+      "feedback": "Correct response: C. It records observable behaviour. Whether that behaviour demonstrates inadequate workload management is the examiner’s subsequent professional judgement."
+    },
+    {
+      "id": "b3-workshop-evidence",
+      "questionNumber": 5,
+      "type": "MULTIPLE_RESPONSE",
+      "question": "In the difficult-debrief workshop, which evidence should be considered in reaching the outcome? Select all that apply.",
+      "answers": [
+        { "id": "b3q5-a", "text": "The first incorrect frequency entry.", "correct": true },
+        { "id": "b3q5-b", "text": "The candidate’s independent recognition and correction on the first occasion.", "correct": true },
+        { "id": "b3q5-c", "text": "The recurrence of the same type of error later in the assessment.", "correct": true },
+        { "id": "b3q5-d", "text": "The fact that a neutral examiner question was needed before the second error was recognised.", "correct": true },
+        { "id": "b3q5-e", "text": "The candidate’s successful correction after recognition.", "correct": true },
+        { "id": "b3q5-f", "text": "The otherwise strong technical performance and satisfactory remainder of the assessment.", "correct": true }
+      ],
+      "feedback": "Preferred response: all are relevant. Consider the complete evidence story: the errors, different recovery characteristics, examiner cue and otherwise strong performance."
+    },
+    {
+      "id": "b3-workshop-opening",
+      "questionNumber": 6,
+      "type": "MULTIPLE_CHOICE",
+      "question": "The applicable standard has not been demonstrated and the candidate is surprised. Which debrief opening is strongest?",
+      "answers": [
+        { "id": "b3q6-a", "text": "Unfortunately, I’ve failed you because of the radio mistakes.", "correct": false },
+        { "id": "b3q6-b", "text": "Most of the flight was very good, but I’ve got a problem with those frequencies.", "correct": false },
+        { "id": "b3q6-c", "text": "The assessment outcome is that the required standard has not been demonstrated today. I’ll take you through the evidence that led to that decision.", "correct": true },
+        { "id": "b3q6-d", "text": "Two frequency errors means I have no choice.", "correct": false }
+      ],
+      "feedback": "Preferred response: C. Give a clear outcome, followed by the evidence and applicable standard. Do not convert a generic error count into an automatic rule."
+    },
+    {
+      "id": "b3-workshop-candidate-challenge",
+      "questionNumber": 7,
+      "type": "MULTIPLE_CHOICE",
+      "question": "The candidate says, “I fixed both frequencies and everything else was good.” Which response is strongest?",
+      "answers": [
+        { "id": "b3q7-a", "text": "The corrections don’t matter.", "correct": false },
+        { "id": "b3q7-b", "text": "I had already made my decision after the second error.", "correct": false },
+        { "id": "b3q7-c", "text": "Your corrections are relevant evidence and I have considered them. The concern is the recurrence of the same error and that the second one was not recognised until I asked you to confirm the selected frequency. Let me explain how that evidence relates to the required standard.", "correct": true },
+        { "id": "b3q7-d", "text": "Two radio errors are always a fail.", "correct": false }
+      ],
+      "feedback": "Preferred response: C. Acknowledge recovery and otherwise strong performance without allowing them to erase recurrence or reduced independence of recognition."
+    },
+    {
+      "id": "b3-workshop-external-pressure",
+      "questionNumber": 8,
+      "type": "MULTIPLE_CHOICE",
+      "question": "The candidate says, “My company needs me flying next week. Can’t you just put something in the notes and let my training department deal with it?” What is the strongest response?",
+      "answers": [
+        { "id": "b3q8-a", "text": "I’ll see what I can do.", "correct": false },
+        { "id": "b3q8-b", "text": "That isn’t my problem.", "correct": false },
+        { "id": "b3q8-c", "text": "I understand there may be operational consequences, but they don’t change the assessment standard I am required to apply.", "correct": true },
+        { "id": "b3q8-d", "text": "Your company shouldn’t have scheduled you if they needed you that badly.", "correct": false }
+      ],
+      "feedback": "Preferred response: C. Acknowledge operational reality without allowing it to influence the standard. Remain neutral and avoid criticising the candidate or operator."
+    },
+    {
+      "id": "b3-workshop-hypothetical-examiner",
+      "questionNumber": 9,
+      "type": "MULTIPLE_CHOICE",
+      "question": "The candidate says, “Another examiner would pass that.” Choose the strongest response.",
+      "answers": [
+        { "id": "b3q9-a", "text": "I doubt it.", "correct": false },
+        { "id": "b3q9-b", "text": "Then they wouldn’t be applying the standard properly.", "correct": false },
+        { "id": "b3q9-c", "text": "I can’t speak for a hypothetical assessment. I can explain the evidence from this assessment and how I’ve applied the required standard.", "correct": true },
+        { "id": "b3q9-d", "text": "You are welcome to try another examiner.", "correct": false }
+      ],
+      "feedback": "Preferred response: C. Standardisation does not require speculation about another examiner. Professional defensibility requires explanation of this assessment."
+    },
+    {
+      "id": "b3-workshop-written-record",
+      "questionNumber": 10,
+      "type": "MULTIPLE_CHOICE",
+      "question": "After the difficult debrief, which note provides the strongest core evidence?",
+      "answers": [
+        { "id": "b3q10-a", "text": "Candidate failed communications. Two wrong frequencies.", "correct": false },
+        { "id": "b3q10-b", "text": "Incorrect frequency selected on two separate frequency changes. First error identified and corrected independently after no response. Second error repeated; candidate did not identify incorrect selection until asked to confirm selected frequency, then corrected appropriately. Remaining technical performance satisfactory.", "correct": true },
+        { "id": "b3q10-c", "text": "Candidate normally communicates well but made a couple of radio mistakes.", "correct": false },
+        { "id": "b3q10-d", "text": "Two frequency errors = fail.", "correct": false }
+      ],
+      "feedback": "Preferred response: B. It records the observed errors, different recovery characteristics and positive evidence from the remainder without relying on vague labels or an automatic rule."
+    },
+    {
+      "id": "b3-final-leading-question",
+      "questionNumber": 11,
+      "type": "MULTIPLE_CHOICE",
+      "question": "What is the main risk when an examiner asks a leading question during an assessment?",
+      "answers": [
+        { "id": "b3q11-a", "text": "It makes the assessment longer.", "correct": false },
+        { "id": "b3q11-b", "text": "It may create or influence the evidence being assessed.", "correct": true },
+        { "id": "b3q11-c", "text": "Candidates dislike being questioned.", "correct": false },
+        { "id": "b3q11-d", "text": "Questions are prohibited during flight tests.", "correct": false }
+      ],
+      "feedback": "Correct response: B. Leading questions can change the evidential value of the candidate’s subsequent actions."
+    },
+    {
+      "id": "b3-final-current-evidence",
+      "questionNumber": 12,
+      "type": "MULTIPLE_CHOICE",
+      "question": "A candidate challenges an unsuccessful outcome by saying another examiner would have passed the performance. What is the strongest response?",
+      "answers": [
+        { "id": "b3q12-a", "text": "Defend the examiner profession.", "correct": false },
+        { "id": "b3q12-b", "text": "Criticise the other examiner.", "correct": false },
+        { "id": "b3q12-c", "text": "Return to the evidence from the current assessment and the applicable standard.", "correct": true },
+        { "id": "b3q12-d", "text": "End the debrief immediately.", "correct": false }
+      ],
+      "feedback": "Correct response: C. Explain the current assessment rather than speculate about another examiner."
+    },
+    {
+      "id": "b3-final-objective-note",
+      "questionNumber": 13,
+      "type": "MULTIPLE_CHOICE",
+      "question": "Which note is most defensible?",
+      "answers": [
+        { "id": "b3q13-a", "text": "Poor situational awareness.", "correct": false },
+        { "id": "b3q13-b", "text": "Candidate appeared overloaded.", "correct": false },
+        { "id": "b3q13-c", "text": "Missed two radio calls, omitted checklist and exceeded assigned altitude before correcting.", "correct": true },
+        { "id": "b3q13-d", "text": "Needs more practice.", "correct": false }
+      ],
+      "feedback": "Correct response: C. It records observable behaviour rather than an unsupported interpretation."
+    },
+    {
+      "id": "b3-final-recovery-record",
+      "questionNumber": 14,
+      "type": "MULTIPLE_CHOICE",
+      "question": "Why should strong recovery be included in the assessment record?",
+      "answers": [
+        { "id": "b3q14-a", "text": "Because recovery automatically cancels the original error.", "correct": false },
+        { "id": "b3q14-b", "text": "Because it is part of the complete evidence story.", "correct": true },
+        { "id": "b3q14-c", "text": "Because unsuccessful candidates must receive positive comments.", "correct": false },
+        { "id": "b3q14-d", "text": "Because recovery always demonstrates competence.", "correct": false }
+      ],
+      "feedback": "Correct response: B. Recovery is relevant evidence and should be considered alongside the original event."
+    },
+    {
+      "id": "b3-final-professional-authority",
+      "questionNumber": 15,
+      "type": "MULTIPLE_CHOICE",
+      "question": "Which statement best describes professional examiner authority?",
+      "answers": [
+        { "id": "b3q15-a", "text": "The examiner’s experience determines the standard.", "correct": false },
+        { "id": "b3q15-b", "text": "The examiner should avoid explaining difficult decisions.", "correct": false },
+        { "id": "b3q15-c", "text": "Authority is demonstrated through calm, evidence-based application and explanation of the required standard.", "correct": true },
+        { "id": "b3q15-d", "text": "Candidates should not be permitted to question an outcome.", "correct": false }
+      ],
+      "feedback": "Correct response: C. Professional authority comes from disciplined application and explanation of evidence and standards."
+    }
+  ]
+}

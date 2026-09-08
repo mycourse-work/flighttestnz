@@ -1,0 +1,177 @@
+{
+  "title": "Block 2 Knowledge Check — Readiness, Human Performance and Calibration",
+  "type": "quiz",
+  "passingScore": 80,
+  "questions": [
+    {
+      "id": "b2-missing-prerequisite",
+      "questionNumber": 1,
+      "type": "MULTIPLE_CHOICE",
+      "question": "A candidate appears highly competent but a required assessment prerequisite cannot be verified. What is the primary issue?",
+      "answers": [
+        { "id": "b2q1-a", "text": "Candidate confidence.", "correct": false },
+        { "id": "b2q1-b", "text": "Assessment validity.", "correct": true },
+        { "id": "b2q1-c", "text": "Examiner workload.", "correct": false },
+        { "id": "b2q1-d", "text": "Candidate technical skill.", "correct": false }
+      ],
+      "feedback": "Correct response: B. The issue is whether the assessment is valid to conduct, not whether the candidate is probably competent."
+    },
+    {
+      "id": "b2-cumulative-commencement",
+      "questionNumber": 2,
+      "type": "MULTIPLE_CHOICE",
+      "question": "Several individually manageable threats exist before an assessment. What should the examiner consider?",
+      "answers": [
+        { "id": "b2q2-a", "text": "Only whether any one factor prohibits commencement.", "correct": false },
+        { "id": "b2q2-b", "text": "The cumulative effect on safety, fairness and assessment validity.", "correct": true },
+        { "id": "b2q2-c", "text": "Whether the operator wants the assessment completed.", "correct": false },
+        { "id": "b2q2-d", "text": "Whether the candidate has travelled a long distance.", "correct": false }
+      ],
+      "feedback": "Correct response: B. Several manageable threats may collectively create an unsuitable assessment environment."
+    },
+    {
+      "id": "b2-smooth-flight",
+      "questionNumber": 3,
+      "type": "MULTIPLE_CHOICE",
+      "question": "A candidate demonstrates strong aircraft handling but increasingly reactive decision-making as weather deteriorates. Which statement is most appropriate?",
+      "answers": [
+        { "id": "b2q3-a", "text": "Strong aircraft handling demonstrates overall competence.", "correct": false },
+        { "id": "b2q3-b", "text": "Poor judgement automatically overrides all technical evidence.", "correct": false },
+        { "id": "b2q3-c", "text": "Recognise the strong technical evidence and weaker decision-making evidence separately, then assess both against the required standard.", "correct": true },
+        { "id": "b2q3-d", "text": "Wait for a technical error before becoming concerned.", "correct": false }
+      ],
+      "feedback": "Preferred response: C. Assessment evidence should not be artificially collapsed into a single impression. Identify both strengths and concerns and determine their significance against the applicable competencies and standards."
+    },
+    {
+      "id": "b2-excellent-recovery",
+      "questionNumber": 4,
+      "type": "MULTIPLE_CHOICE",
+      "question": "A candidate’s situational awareness deteriorates during a high-workload phase, then the candidate recognises the problem, reprioritises and safely completes the exercise. How should the recovery be treated?",
+      "answers": [
+        { "id": "b2q4-a", "text": "The recovery cancels the earlier deterioration.", "correct": false },
+        { "id": "b2q4-b", "text": "Only the original error matters.", "correct": false },
+        { "id": "b2q4-c", "text": "Both the deterioration and the recovery are relevant assessment evidence.", "correct": true },
+        { "id": "b2q4-d", "text": "Ignore both because the final outcome was safe.", "correct": false }
+      ],
+      "feedback": "Preferred response: C. Consider severity, recognition time, independence, corrective action, safety margin and recurrence. A good recovery is evidence, but it does not make the earlier event disappear."
+    },
+    {
+      "id": "b2-workshop-commencement",
+      "questionNumber": 5,
+      "type": "MULTIPLE_CHOICE",
+      "question": "A CPL candidate’s records and aircraft are ready, weather is forecast to deteriorate and the candidate appears anxious. There is no regulatory reason not to commence. What should the examiner do?",
+      "answers": [
+        { "id": "b2q5-a", "text": "Cancel because the candidate appears anxious.", "correct": false },
+        { "id": "b2q5-b", "text": "Commence without further consideration because all requirements are satisfied.", "correct": false },
+        { "id": "b2q5-c", "text": "Recognise the anxiety and weather as threats, determine whether they can be managed, and make a considered commencement decision.", "correct": true },
+        { "id": "b2q5-d", "text": "Ask the instructor whether the candidate normally becomes nervous.", "correct": false }
+      ],
+      "feedback": "Preferred response: C. The assessment is apparently legitimate to commence, but threats that may affect fairness, workload or safety still require a considered decision. Anxiety is not itself evidence of incompetence."
+    },
+    {
+      "id": "b2-workshop-halo-risk",
+      "questionNumber": 6,
+      "type": "MULTIPLE_CHOICE",
+      "question": "The first part of an assessment is strong and the examiner begins forming a very positive impression. What judgement risk may be developing?",
+      "answers": [
+        { "id": "b2q6-a", "text": "Halo effect or premature positive conclusion.", "correct": true },
+        { "id": "b2q6-b", "text": "Horn effect.", "correct": false },
+        { "id": "b2q6-c", "text": "Recency effect.", "correct": false },
+        { "id": "b2q6-d", "text": "Procedural invalidity.", "correct": false }
+      ],
+      "feedback": "Preferred response: A. A strong start is evidence, but it should not become a prediction of the final outcome. Continue gathering evidence throughout the assessment."
+    },
+    {
+      "id": "b2-workshop-emerging-pattern",
+      "questionNumber": 7,
+      "type": "MULTIPLE_CHOICE",
+      "question": "During a workload increase, one radio call is missed, a checklist item is omitted, navigation accuracy temporarily deteriorates and communication becomes less organised. What is the most appropriate interpretation?",
+      "answers": [
+        { "id": "b2q7-a", "text": "The candidate has now failed because several errors occurred.", "correct": false },
+        { "id": "b2q7-b", "text": "The errors should be ignored because earlier performance was strong.", "correct": false },
+        { "id": "b2q7-c", "text": "Consider whether the observations represent isolated errors or an emerging workload-management pattern.", "correct": true },
+        { "id": "b2q7-d", "text": "Tell the candidate to reduce workload.", "correct": false }
+      ],
+      "feedback": "Preferred response: C. Continue observing the pattern, context and recovery while protecting safety. Early strong performance should neither excuse nor magnify what follows."
+    },
+    {
+      "id": "b2-workshop-decision-evidence",
+      "questionNumber": 8,
+      "type": "MULTIPLE_RESPONSE",
+      "question": "During deteriorating weather, which evidence matters when a candidate initially continues, then diverts after receiving further information? Select all that apply.",
+      "answers": [
+        { "id": "b2q8-a", "text": "The candidate initially continued toward deteriorating weather.", "correct": true },
+        { "id": "b2q8-b", "text": "Alternatives were available.", "correct": true },
+        { "id": "b2q8-c", "text": "Additional information influenced the later decision.", "correct": true },
+        { "id": "b2q8-d", "text": "The candidate eventually made a safe diversion.", "correct": true },
+        { "id": "b2q8-e", "text": "The diversion was executed effectively.", "correct": true }
+      ],
+      "feedback": "Preferred response: all are relevant. Assess the complete decision process: information available, recognition, timing, alternatives, response to changing information and execution."
+    },
+    {
+      "id": "b2-final-validity",
+      "questionNumber": 9,
+      "type": "MULTIPLE_CHOICE",
+      "question": "A candidate appears highly competent but a required assessment prerequisite cannot be verified. What is the primary issue?",
+      "answers": [
+        { "id": "b2q9-a", "text": "Candidate confidence.", "correct": false },
+        { "id": "b2q9-b", "text": "Assessment validity.", "correct": true },
+        { "id": "b2q9-c", "text": "Examiner workload.", "correct": false },
+        { "id": "b2q9-d", "text": "Candidate technical skill.", "correct": false }
+      ],
+      "feedback": "Correct response: B. Establish whether the assessment is valid to conduct before considering likely competence."
+    },
+    {
+      "id": "b2-final-cumulative-effect",
+      "questionNumber": 10,
+      "type": "MULTIPLE_CHOICE",
+      "question": "Several individually manageable threats exist before an assessment. What should the examiner consider?",
+      "answers": [
+        { "id": "b2q10-a", "text": "Only whether any one factor prohibits commencement.", "correct": false },
+        { "id": "b2q10-b", "text": "The cumulative effect on safety, fairness and assessment validity.", "correct": true },
+        { "id": "b2q10-c", "text": "Whether the operator wants the assessment completed.", "correct": false },
+        { "id": "b2q10-d", "text": "Whether the candidate has travelled a long distance.", "correct": false }
+      ],
+      "feedback": "Correct response: B. Cumulative effect matters."
+    },
+    {
+      "id": "b2-final-recovery-evidence",
+      "questionNumber": 11,
+      "type": "MULTIPLE_CHOICE",
+      "question": "A candidate makes an error but subsequently recognises and corrects it effectively. How should the recovery be treated?",
+      "answers": [
+        { "id": "b2q11-a", "text": "As evidence that completely replaces the original error.", "correct": false },
+        { "id": "b2q11-b", "text": "As additional evidence that should be considered with the original event.", "correct": true },
+        { "id": "b2q11-c", "text": "As irrelevant because errors should never occur.", "correct": false },
+        { "id": "b2q11-d", "text": "As an automatic pass.", "correct": false }
+      ],
+      "feedback": "Correct response: B. Recovery is additional evidence; it does not erase the original event."
+    },
+    {
+      "id": "b2-final-halo-effect",
+      "questionNumber": 12,
+      "type": "MULTIPLE_CHOICE",
+      "question": "An examiner forms a strong positive opinion early and subsequently discounts later concerns. Which judgement trap is most likely?",
+      "answers": [
+        { "id": "b2q12-a", "text": "Halo effect.", "correct": true },
+        { "id": "b2q12-b", "text": "Recency effect.", "correct": false },
+        { "id": "b2q12-c", "text": "Workload saturation.", "correct": false },
+        { "id": "b2q12-d", "text": "Procedural drift.", "correct": false }
+      ],
+      "feedback": "Correct response: A. An early positive impression is colouring later observations."
+    },
+    {
+      "id": "b2-final-reasoning-sequence",
+      "questionNumber": 13,
+      "type": "MULTIPLE_CHOICE",
+      "question": "Which sequence best supports defensible human-performance assessment?",
+      "answers": [
+        { "id": "b2q13-a", "text": "Conclusion → observation → standard.", "correct": false },
+        { "id": "b2q13-b", "text": "Reputation → judgement → evidence.", "correct": false },
+        { "id": "b2q13-c", "text": "Observation → interpretation → standard → conclusion.", "correct": true },
+        { "id": "b2q13-d", "text": "Error → failure.", "correct": false }
+      ],
+      "feedback": "Correct response: C. Begin with observable evidence and connect it to the applicable standard before reaching a conclusion."
+    }
+  ]
+}

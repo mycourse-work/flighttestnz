@@ -20,9 +20,22 @@ Examiner notes have two purposes: they support judgement during the assessment a
 
 > “During arrival: missed radio call; checklist not completed; altitude deviation 180 ft; required repeated heading correction.”
 
+<details>
+<summary>Self-check — Which note provides the strongest evidence trail?</summary>
+
+<ol type="A">
+<li>“Candidate weak under pressure.”</li>
+<li>“Poor workload management.”</li>
+<li>“During high-workload arrival, missed two radio calls, omitted landing checklist and exceeded assigned altitude by approximately 150 ft before correcting.”</li>
+<li>“Candidate needs more practice.”</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> C. It records observable behaviour. Whether that behaviour demonstrates inadequate workload management is the examiner’s subsequent professional judgement.</p>
+</details>
+
 You can then explain why those observations supported a workload-management judgement.
 
-![Three-panel pathway from observable evidence through interpretation to a conclusion linked to the applicable standard](./assets/evidence-interpretation-conclusion.svg)
+![Three-panel pathway from observable evidence through interpretation to a conclusion linked to the applicable standard](./assets/evidence-interpretation-conclusion.png)
 
 ## Record enough — not everything
 

@@ -21,6 +21,11 @@ The first part of the assessment is strong. The candidate demonstrates accurate 
 
 **Reflection:** What examiner judgement risk may now be developing?
 
+<div class="reflection" data-id="block-2-halo-reflection" data-min-chars="40">
+<div class="reflection-prompt"><strong>Mandatory reflection</strong><br>What examiner judgement risk may now be developing, and what control will keep the strong start from becoming a prediction of the final outcome?</div>
+<div class="reflection-answer"><strong>Model reasoning:</strong> Halo effect or premature positive conclusion. A strong start is evidence, but it must not replace continued evidence gathering across the assessment.</div>
+</div>
+
 **Decision:** Identify the judgement risk before continuing. A strong start is evidence, but it should not become a prediction of the final outcome.
 
 ## Stage 3 — workload increases

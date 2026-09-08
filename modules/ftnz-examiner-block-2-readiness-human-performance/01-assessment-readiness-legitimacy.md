@@ -53,14 +53,24 @@ A candidate presents for an assessment. The required training has reportedly bee
 
 The primary issue is whether the required assessment prerequisites can be verified. Verbal assurance, operational inconvenience and previous performance should not replace required evidence. If the deficiency can legitimately be resolved before commencement, the assessment may then proceed. Where it cannot, likely competence does not make the assessment valid.
 
+<details>
+<summary>Self-check — What is the primary issue?</summary>
+
+<ol type="A">
+<li>The examiner’s confidence that the training was completed.</li>
+<li>The inconvenience caused by postponement.</li>
+<li>Whether the required assessment prerequisites can be verified.</li>
+<li>The candidate’s previous performance.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> C. The issue is whether the examiner can establish that the required preconditions for the assessment have been met. Verbal assurance, operational inconvenience or previous performance should not replace required evidence.</p>
+</details>
+
 ## Examiner readiness
 
 Assessment readiness also applies to you. Consider fatigue, illness, workload, distraction, inadequate preparation, time pressure and recency with the assessment standard.
 
-<div class="reflection" data-id="block-2-examiner-readiness" data-min-chars="0">
-<div class="reflection-prompt"><strong>Pause and reflect</strong><br>Do you apply the same readiness scrutiny to yourself that you apply to the candidate and aircraft?</div>
-<div class="reflection-answer"><strong>Consider</strong> whether your own fatigue, workload, preparation or recency could affect fairness, safety or the reliability of the evidence gathered.</div>
-</div>
+> **Pause and reflect:** Do you apply the same readiness scrutiny to yourself that you apply to the candidate and aircraft? Consider whether your own fatigue, workload, preparation or recency could affect fairness, safety or the reliability of the evidence gathered. No recorded response is required for this source activity.
 
 ## Apply it
 

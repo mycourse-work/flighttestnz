@@ -17,7 +17,6 @@
     { "id": "evidence-notes-defensible-records", "title": "Evidence, Notes and Defensible Records", "type": "content", "markdownPath": "04-evidence-notes-defensible-records.md" },
     { "id": "calibration-workshop-difficult-debrief", "title": "Calibration Workshop — The Difficult Debrief", "type": "content", "markdownPath": "05-calibration-workshop-difficult-debrief.md" },
     { "id": "block-review-completion", "title": "Review and Completion", "type": "content", "markdownPath": "06-review-completion.md" },
-    { "id": "field-application-defensible-practice", "title": "Field Application — Defensible Practice Aid", "type": "content", "markdownPath": "07-field-application-defensible-practice.md" },
     { "id": "block-3-knowledge-check", "title": "Block 3 Knowledge Check", "type": "quiz", "quizPath": "quiz.json" }
   ]
 }

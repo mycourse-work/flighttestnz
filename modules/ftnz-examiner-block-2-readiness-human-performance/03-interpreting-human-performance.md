@@ -54,9 +54,22 @@ Likewise, a candidate may make minor technical errors while demonstrating strong
 
 A candidate flies accurately and confidently. Aircraft handling is consistently strong. However, as the flight progresses, weather deteriorates, alternative options are available, the candidate continues toward the weather, decision-making becomes increasingly reactive and threat recognition appears weak.
 
+<details>
+<summary>Self-check — Which statement is most appropriate?</summary>
+
+<ol type="A">
+<li>Strong aircraft handling demonstrates overall competence.</li>
+<li>Poor judgement automatically overrides all technical evidence.</li>
+<li>Recognise the strong technical evidence and the weaker decision-making evidence separately, then assess both against the required standard.</li>
+<li>Wait for a technical error before becoming concerned.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> C. Assessment evidence should not be artificially collapsed into a single impression. A candidate may simultaneously demonstrate strong technical handling and weak operational judgement; identify both and determine their significance against the applicable competencies and standards.</p>
+</details>
+
 The appropriate interpretation is to recognise the strong technical evidence and the weaker decision-making evidence separately, then assess both against the required standard. Do not wait for a technical error before becoming concerned, and do not assume that poor judgement automatically overrides all technical evidence.
 
-![Disciplined reasoning path from observation through context and standard to conclusion](./assets/behaviour-to-assessment-decision.svg)
+![Disciplined reasoning path from observation through context and standard to conclusion](./assets/behaviour-to-assessment-decision.png)
 
 ## Apply it
 

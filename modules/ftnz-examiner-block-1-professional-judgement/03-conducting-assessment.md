@@ -42,11 +42,20 @@ If intervention is necessary, use the minimum action consistent with safe conduc
 
 During a flight assessment, the candidate is instructed to change to a new radio frequency. The candidate enters one digit incorrectly and makes a call. There is no response. After a short period, the candidate checks the radio, identifies the incorrect frequency, enters the correct frequency and establishes communication. The remainder of the sequence continues normally.
 
-The error is observable evidence. Its assessment significance depends on context: whether it was isolated or part of a wider pattern, how independently and promptly it was recognised, the quality of the recovery and how the event relates to the applicable standard.
+<details>
+<summary>Self-check — What is the best examiner response?</summary>
 
-Do not convert a minor procedural error into an automatic outcome, and do not ignore it because communication was eventually established. The recovery adds evidence; it does not erase the original error.
+<ol type="A">
+<li>Treat the error itself as evidence that the required standard has not been met.</li>
+<li>Continue the assessment and consider the error, recognition and recovery in context with the rest of the evidence.</li>
+<li>Ignore the event completely because communication was eventually established.</li>
+<li>Immediately tell the candidate which digit was entered incorrectly.</li>
+</ol>
 
-![Evidence pathway for an error, recognition, recovery, recurrence and standard comparison](./assets/isolated-error-pattern.svg)
+<p><strong>Model reasoning:</strong> B. The error is observable evidence, but its significance depends on context: whether it was isolated or part of a wider pattern, how independently and promptly it was recognised, the quality of the recovery and how the event relates to the applicable standard. Recovery adds evidence; it does not erase the original error.</p>
+</details>
+
+![Evidence pathway for an error, recognition, recovery, recurrence and standard comparison](./assets/isolated-error-pattern.png)
 
 ## Objective notes
 

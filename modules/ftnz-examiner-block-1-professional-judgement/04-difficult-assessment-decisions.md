@@ -30,6 +30,32 @@ A borderline situation is one in which evidence requires careful interpretation.
 
 The candidate is highly experienced, well respected and known personally by several examiners. The operator is short of personnel. The assessment has proceeded smoothly. Near the conclusion, one sequence reveals a significant lapse in judgement. Technical skill remains high. There is no further valid opportunity to observe the same behaviour again.
 
+<details>
+<summary>Decision 1 — Which question should the examiner answer first?</summary>
+
+<ol type="A">
+<li>Will the operator be able to replace the candidate?</li>
+<li>Is the candidate usually competent?</li>
+<li>What exactly was observed, and which standard or competency does it relate to?</li>
+<li>Would failing the candidate be disproportionate after an otherwise strong test?</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> C. Begin with observable evidence and its relationship to the standard, not operational consequence or reputation.</p>
+</details>
+
+<details>
+<summary>Decision 2 — How should a significant but isolated event be treated?</summary>
+
+<ol type="A">
+<li>An isolated event can never determine an assessment outcome.</li>
+<li>A single event may be decisive if its severity and relationship to the standard justify that weight.</li>
+<li>Strong technical performance should always outweigh one judgement concern.</li>
+<li>The candidate should automatically receive the benefit of the doubt.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> B. Pattern matters, but severity matters too. Consider context, consequence, independence, recovery and the precise requirements of the standard.</p>
+</details>
+
 Start with what was observed and which standard or competency it relates to. Do not begin with whether the candidate is usually competent, whether the operator can replace them or whether failing would feel disproportionate.
 
 An isolated event can be decisive if its severity and relationship to the standard justify that weight. Pattern matters, but severity matters too. Consider context, consequence, independence, recovery and the precise requirement.

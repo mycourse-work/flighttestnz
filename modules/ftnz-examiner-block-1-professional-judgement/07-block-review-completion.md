@@ -22,7 +22,9 @@ Ask yourself:
 4. Can I explain both the original event and any recovery?
 5. Could another experienced examiner reconstruct my reasoning from my notes?
 
-Complete the Block 1 knowledge check to record your understanding. The course threshold is 80%; the quiz can be attempted again if needed.
+Complete the Block 1 knowledge check to record your understanding. It is a formative knowledge check; FTNZ has not specified a formal pass mark in the supplied source. Review and retry any questions that need attention.
+
+The [optional Block 1 evidence and debrief aid](./downloads/block-1-evidence-and-debrief-aid.md) condenses the five-pass review for later field use; it is not an additional mandatory lesson.
 
 ## Completion position
 

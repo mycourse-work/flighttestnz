@@ -42,6 +42,19 @@ If the discussion becomes repetitive, restate the evidence once, answer a genuin
 
 You advise a candidate that the required standard was not demonstrated. The candidate replies: “That’s ridiculous. I’ve done this before and another examiner had no problem with it.”
 
+<details>
+<summary>Self-check — Which response is strongest?</summary>
+
+<ol type="A">
+<li>“Well, I’m the examiner today.”</li>
+<li>“Then the other examiner was wrong.”</li>
+<li>“I can’t comment on another assessment. Let me explain the evidence from today’s assessment and how it relates to the required standard.”</li>
+<li>“If you disagree, you can complain to CAA.”</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> C. Explain the current decision from the current evidence and applicable standard without defending or criticising another examiner.</p>
+</details>
+
 The strongest response is to avoid commenting on another assessment and explain the evidence from today’s assessment and how it relates to the required standard. You do not need to defend or criticise another examiner.
 
 ### If the reaction escalates

@@ -2,12 +2,11 @@
   "id": "aviation-examiner-recurrent-block-3",
   "title": "Aviation Examiner Recurrent Professional Development — Block 3",
   "description": "A self-paced recurrent professional-development block for experienced Flight Test New Zealand aviation examiners. Strengthen examiner identity, communication discipline, objective evidence, defensible records and difficult debriefs.",
-  "estimatedDuration": "Approximately 80–90 minutes, including the field-application aid",
+  "estimatedDuration": "Approximately 80 minutes (within a 90-minute recurrent allocation)",
   "coverImage": "block-3-cover.png",
   "welcomePath": "welcome.md",
-  "quizPassingThreshold": 80,
   "quizRevealMode": "end-of-quiz",
-  "completionEvidence": "warn",
+  "completionEvidence": "enforce",
   "evidenceWordsPerMinute": 150,
   "modules": [
     "ftnz-examiner-block-3-identity-communication-evidence"

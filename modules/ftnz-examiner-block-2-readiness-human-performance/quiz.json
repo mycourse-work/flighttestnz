@@ -7,14 +7,14 @@
       "id": "b2-missing-prerequisite",
       "questionNumber": 1,
       "type": "MULTIPLE_CHOICE",
-      "question": "A candidate appears highly competent but a required assessment prerequisite cannot be verified. What is the primary issue?",
+      "question": "A candidate presents for an assessment. The required training has reportedly been completed and the instructor confirms verbally that everything was done correctly. However, one required training record cannot be located. What should primarily determine whether the assessment can commence?",
       "answers": [
-        { "id": "b2q1-a", "text": "Candidate confidence.", "correct": false },
-        { "id": "b2q1-b", "text": "Assessment validity.", "correct": true },
-        { "id": "b2q1-c", "text": "Examiner workload.", "correct": false },
-        { "id": "b2q1-d", "text": "Candidate technical skill.", "correct": false }
+        { "id": "b2q1-a", "text": "The examiner’s confidence that the training was completed.", "correct": false },
+        { "id": "b2q1-b", "text": "The inconvenience caused by postponement.", "correct": false },
+        { "id": "b2q1-c", "text": "Whether the required assessment prerequisites can be verified.", "correct": true },
+        { "id": "b2q1-d", "text": "The candidate’s previous performance.", "correct": false }
       ],
-      "feedback": "Correct response: B. The issue is whether the assessment is valid to conduct, not whether the candidate is probably competent."
+      "feedback": "Preferred response: C. The issue is whether the examiner can establish that the required preconditions for the assessment have been met. Verbal assurance, operational inconvenience or previous performance should not replace required evidence."
     },
     {
       "id": "b2-cumulative-commencement",
@@ -23,11 +23,11 @@
       "question": "Several individually manageable threats exist before an assessment. What should the examiner consider?",
       "answers": [
         { "id": "b2q2-a", "text": "Only whether any one factor prohibits commencement.", "correct": false },
-        { "id": "b2q2-b", "text": "The cumulative effect on safety, fairness and assessment validity.", "correct": true },
-        { "id": "b2q2-c", "text": "Whether the operator wants the assessment completed.", "correct": false },
-        { "id": "b2q2-d", "text": "Whether the candidate has travelled a long distance.", "correct": false }
+        { "id": "b2q2-b", "text": "Cancel because several threats are present.", "correct": false },
+        { "id": "b2q2-c", "text": "Consider the combined effect of the factors and determine whether the assessment can still be conducted fairly, safely and validly.", "correct": true },
+        { "id": "b2q2-d", "text": "Allow the operator to decide because the pressure is operational.", "correct": false }
       ],
-      "feedback": "Correct response: B. Several manageable threats may collectively create an unsuitable assessment environment."
+      "feedback": "Preferred response: C. Professional go/no-go decisions are rarely made by counting threats. Consider the combined effect on legality, safety, fairness, validity, likely workload and available mitigations."
     },
     {
       "id": "b2-smooth-flight",

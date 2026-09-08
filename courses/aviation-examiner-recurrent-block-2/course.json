@@ -2,12 +2,11 @@
   "id": "aviation-examiner-recurrent-block-2",
   "title": "Aviation Examiner Recurrent Professional Development — Block 2",
   "description": "A self-paced recurrent professional-development block for experienced Flight Test New Zealand aviation examiners. Apply readiness, cumulative-risk, human-performance, recovery and bias concepts to difficult assessment evidence.",
-  "estimatedDuration": "Approximately 80–90 minutes, including the field-application aid",
+  "estimatedDuration": "Approximately 80 minutes (within a 90-minute recurrent allocation)",
   "coverImage": "block-2-cover.png",
   "welcomePath": "welcome.md",
-  "quizPassingThreshold": 80,
   "quizRevealMode": "end-of-quiz",
-  "completionEvidence": "warn",
+  "completionEvidence": "enforce",
   "evidenceWordsPerMinute": 150,
   "modules": [
     "ftnz-examiner-block-2-readiness-human-performance"

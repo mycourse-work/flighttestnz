@@ -56,6 +56,19 @@ This is not a demand for a single examiner personality. It is a way to keep auth
 <div class="reflection-answer"><strong>Use this as a private professional check.</strong> Look for alignment between calm authority, impartiality, respect, clear explanation and accurate documentation.</div>
 </div>
 
+<details>
+<summary>Self-check — Which statement best reflects experienced examiner professionalism?</summary>
+
+<ol type="A">
+<li>Experience gives the examiner greater discretion to adapt published standards.</li>
+<li>Experience reduces the need to explain decisions.</li>
+<li>Experience should improve the examiner’s ability to apply and explain the required standard.</li>
+<li>Experienced examiners should rely primarily on professional intuition.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> C. Experience should strengthen professional judgement and make reasoning more efficient. It does not enlarge delegated authority or replace evidence and standards.</p>
+</details>
+
 ## Key takeaway
 
 Experience should improve your ability to apply and explain the required standard. It does not enlarge delegated authority or replace the need for evidence and standards.

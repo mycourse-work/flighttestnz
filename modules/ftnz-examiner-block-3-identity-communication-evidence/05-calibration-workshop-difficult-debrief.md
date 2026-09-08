@@ -23,10 +23,7 @@ title: Block 3 staged calibration workshop
 
 ## Stage 2 — commit to the reasoning
 
-<div class="reflection" data-id="block-3-debrief-weighting" data-min-chars="100">
-<div class="reflection-prompt"><strong>Mandatory reflection</strong><br>Which three pieces of evidence would carry the greatest weight in your decision, and why?</div>
-<div class="reflection-answer"><strong>Model reasoning:</strong> The precise weighting depends upon the applicable standard. Strong reasoning identifies the recurrence of the same error, the difference between independent recognition on the first occasion and examiner-cued recognition on the second, and the quality of the subsequent correction. Explain why those observations matter against the relevant competency or standard rather than treating “wrong frequency” as an automatic outcome.</div>
-</div>
+The staged activity requires this reasoning response before it reveals the model position and moves to the debrief decisions.
 
 ## Stage 3 — the debrief begins
 

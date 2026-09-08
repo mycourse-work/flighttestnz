@@ -437,6 +437,30 @@
       font-size: 0.9rem;
     }
 
+    .reflection-input {
+      width: 100%;
+      min-height: 120px;
+      padding: 10px 12px;
+      border: 1px solid var(--widget-border);
+      border-radius: var(--widget-radius);
+      background: var(--widget-bg);
+      color: var(--widget-text);
+      font: inherit;
+      line-height: 1.5;
+      resize: vertical;
+    }
+
+    .reflection-input:focus {
+      outline: none;
+      border-color: var(--widget-primary);
+      box-shadow: 0 0 0 3px var(--widget-primary-light);
+    }
+
+    .reflection-hint {
+      color: var(--widget-text-muted);
+      font-size: 0.78rem;
+    }
+
     .model-feedback {
       padding: 13px 14px;
       border-left: 4px solid var(--widget-primary);
@@ -684,7 +708,29 @@
           title: 'Block 3 — The Difficult Debrief',
           stages: [
             {
-              label: 'Stage 1 — the debrief begins',
+              label: 'Stage 1 — what matters?',
+              multi: true,
+              prompt: 'Which evidence should be considered in reaching the outcome? Select all that apply.',
+              options: [
+                'The first incorrect frequency entry.',
+                'The candidate’s independent recognition and correction on the first occasion.',
+                'The recurrence of the same type of error later in the assessment.',
+                'The neutral examiner question needed before the second error was recognised.',
+                'The candidate’s successful correction after recognition.',
+                'The otherwise strong technical performance and satisfactory remainder of the assessment.'
+              ],
+              correct: [0, 1, 2, 3, 4, 5],
+              feedback: 'All are relevant. Consider the complete evidence story: the first error, independent recovery, recurrence, examiner cue, subsequent correction and otherwise strong performance. Do not turn the generic case into an automatic outcome without the approved standard.'
+            },
+            {
+              kind: 'reflection',
+              label: 'Stage 2 — commit to the reasoning',
+              prompt: 'Before continuing, record which three pieces of evidence would carry the greatest weight in your decision, and why.',
+              minChars: 100,
+              feedback: 'Strong reasoning identifies the recurrence of the same error, the difference between independent recognition on the first occasion and examiner-cued recognition on the second, and the quality of the subsequent correction. Explain why those observations matter against the relevant competency or standard.'
+            },
+            {
+              label: 'Stage 3 — the debrief begins',
               prompt: 'The approved standard has not been demonstrated and the candidate is surprised. Which opening is strongest?',
               options: [
                 'Unfortunately, I’ve failed you because of the radio mistakes.',
@@ -696,7 +742,7 @@
               feedback: 'Give a clear outcome, followed by the evidence and applicable standard. Do not convert a generic error count into an automatic rule.'
             },
             {
-              label: 'Stage 2 — candidate challenge',
+              label: 'Stage 4 — candidate challenge',
               prompt: 'The candidate says, “I fixed both frequencies and everything else was good.” Which response is strongest?',
               options: [
                 'The corrections don’t matter.',
@@ -708,7 +754,7 @@
               feedback: 'Acknowledge recovery and otherwise strong performance without allowing them to erase recurrence or reduced independence of recognition.'
             },
             {
-              label: 'Stage 3 — external pressure',
+              label: 'Stage 5 — external pressure',
               prompt: 'The candidate says the company needs them flying next week and asks you to put something in the notes instead. What is the strongest response?',
               options: [
                 'I’ll see what I can do.',
@@ -720,7 +766,7 @@
               feedback: 'Acknowledge operational reality without allowing it to influence the standard. Remain neutral and avoid criticising the candidate or operator.'
             },
             {
-              label: 'Stage 4 — another examiner',
+              label: 'Stage 6 — another examiner',
               prompt: 'The candidate says another examiner would have passed. What is the strongest response?',
               options: [
                 'I doubt it.',
@@ -732,7 +778,7 @@
               feedback: 'Standardisation does not require speculation about another examiner. Professional defensibility requires explanation of this assessment.'
             },
             {
-              label: 'Stage 5 — the written record',
+              label: 'Stage 7 — the written record',
               prompt: 'Which record should you choose or draft?',
               options: [
                 'Candidate failed communications. Two wrong frequencies.',
@@ -778,23 +824,38 @@
         const choices = document.createElement('div');
         choices.className = 'choice-list';
         choices.setAttribute('role', stage.multi ? 'group' : 'radiogroup');
-        stage.options.forEach(function (option, index) {
-          const choice = document.createElement('label');
-          choice.className = 'choice';
-          const input = document.createElement('input');
-          input.type = stage.multi ? 'checkbox' : 'radio';
-          input.name = 'workshop-choice';
-          input.value = String(index);
-          input.addEventListener('change', function () {
-            commitButton.disabled = !choices.querySelector('input:checked');
+        if (stage.kind === 'reflection') {
+          const textarea = document.createElement('textarea');
+          textarea.className = 'reflection-input';
+          textarea.setAttribute('aria-label', stage.prompt);
+          textarea.placeholder = 'Write your reasoning before continuing…';
+          const hint = document.createElement('div');
+          hint.className = 'reflection-hint';
+          hint.textContent = 'Minimum ' + stage.minChars + ' characters. Your response remains formative and is not auto-marked.';
+          section.appendChild(textarea);
+          section.appendChild(hint);
+          textarea.addEventListener('input', function () {
+            commitButton.disabled = textarea.value.trim().length < stage.minChars;
           });
-          const text = document.createElement('span');
-          text.textContent = option;
-          choice.appendChild(input);
-          choice.appendChild(text);
-          choices.appendChild(choice);
-        });
-        section.appendChild(choices);
+        } else {
+          stage.options.forEach(function (option, index) {
+            const choice = document.createElement('label');
+            choice.className = 'choice';
+            const input = document.createElement('input');
+            input.type = stage.multi ? 'checkbox' : 'radio';
+            input.name = 'workshop-choice';
+            input.value = String(index);
+            input.addEventListener('change', function () {
+              commitButton.disabled = !choices.querySelector('input:checked');
+            });
+            const text = document.createElement('span');
+            text.textContent = option;
+            choice.appendChild(input);
+            choice.appendChild(text);
+            choices.appendChild(choice);
+          });
+          section.appendChild(choices);
+        }
 
         const controls = document.createElement('div');
         controls.className = 'widget-controls';
@@ -817,9 +878,9 @@
             return Number(input.value);
           }).sort();
           const expected = Array.isArray(stage.correct) ? stage.correct.slice().sort() : [stage.correct];
-          const isCorrect = picked.length === expected.length && picked.every(function (value, index) {
+          const isCorrect = stage.kind === 'reflection' || (picked.length === expected.length && picked.every(function (value, index) {
             return value === expected[index];
-          });
+          }));
           committed = true;
           choices.querySelectorAll('input').forEach(function (input) { input.disabled = true; });
           commitButton.disabled = true;

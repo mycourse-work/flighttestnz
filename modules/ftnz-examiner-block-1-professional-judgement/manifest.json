@@ -17,7 +17,6 @@
     { "id": "professional-debriefing", "title": "Professional Debriefing", "type": "content", "markdownPath": "05-professional-debriefing.md" },
     { "id": "calibration-workshop-mixed-evidence", "title": "Calibration Workshop — Mixed Evidence Under Pressure", "type": "content", "markdownPath": "06-calibration-workshop-mixed-evidence.md" },
     { "id": "block-review-completion", "title": "Block Review and Completion", "type": "content", "markdownPath": "07-block-review-completion.md" },
-    { "id": "field-application-evidence-debrief", "title": "Field Application — Evidence and Debrief Aid", "type": "content", "markdownPath": "08-field-application-evidence-debrief.md" },
     { "id": "block-1-knowledge-check", "title": "Block 1 Knowledge Check", "type": "quiz", "quizPath": "quiz.json" }
   ]
 }

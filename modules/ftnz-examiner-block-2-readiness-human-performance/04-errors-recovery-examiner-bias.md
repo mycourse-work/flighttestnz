@@ -33,9 +33,22 @@ The profile prevents “recovered” from becoming an unexplained positive label
 
 During a high-workload phase, a candidate becomes distracted by an unexpected system issue. Situational awareness deteriorates and the candidate initially fails to recognise the developing problem. After approximately thirty seconds, the candidate recognises the situation, deliberately slows the operation, reprioritises correctly, communicates effectively, re-establishes situational awareness and safely completes the exercise.
 
+<details>
+<summary>Self-check — How should the recovery be treated?</summary>
+
+<ol type="A">
+<li>The recovery cancels the earlier deterioration.</li>
+<li>Only the original error matters.</li>
+<li>Both the deterioration and the recovery are relevant assessment evidence.</li>
+<li>Ignore both because the final outcome was safe.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> C. The original deterioration provides evidence, and so does the recovery. Consider severity, recognition time, independence, quality of corrective action, safety margin and recurrence. A good recovery can demonstrate valuable competencies without making the earlier event disappear.</p>
+</details>
+
 Both the deterioration and the recovery are relevant assessment evidence. A good recovery can demonstrate valuable competencies, but it does not make the earlier event disappear.
 
-![Timeline showing an error and recovery as one complete evidence sequence](./assets/recovery-evidence-story.svg)
+![Timeline showing an error and recovery as one complete evidence sequence](./assets/recovery-evidence-story.png)
 
 ## Examiner cognition matters too
 

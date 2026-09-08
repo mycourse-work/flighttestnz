@@ -17,7 +17,6 @@
     { "id": "errors-recovery-examiner-bias", "title": "Errors, Recovery and Examiner Bias", "type": "content", "markdownPath": "04-errors-recovery-examiner-bias.md" },
     { "id": "calibration-workshop-assessment-changes", "title": "Calibration Workshop — The Assessment That Changes", "type": "content", "markdownPath": "05-calibration-workshop-assessment-changes.md" },
     { "id": "block-review-completion", "title": "Review and Completion", "type": "content", "markdownPath": "06-review-completion.md" },
-    { "id": "field-application-readiness-evidence", "title": "Field Application — Readiness and Evidence Aid", "type": "content", "markdownPath": "07-field-application-readiness-evidence.md" },
     { "id": "block-2-knowledge-check", "title": "Block 2 Knowledge Check", "type": "quiz", "quizPath": "quiz.json" }
   ]
 }

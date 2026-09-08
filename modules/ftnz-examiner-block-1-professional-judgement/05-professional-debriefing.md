@@ -22,6 +22,17 @@ The debrief should explain the outcome using evidence and standards without turn
 | “You seemed overloaded.” | “During the arrival you missed the radio call, omitted the checklist and required repeated heading correction. Those observations support the workload-management concern.” |
 | “I didn’t like your decision.” | “The decision did not demonstrate the required standard because the available threat information was not incorporated into the plan.” |
 
+<details>
+<summary>Self-check — Which debrief statement is more defensible?</summary>
+
+<ol type="A">
+<li>“I don’t think you showed enough situational awareness today.”</li>
+<li>“During the arrival you did not identify the conflicting traffic despite two opportunities, and the scan was not re-established until after the traffic alert.”</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> B. It describes observable behaviour and provides a clearer evidence trail for the assessment judgement.</p>
+</details>
+
 ## Difficult reactions
 
 Candidates may be disappointed, defensive or upset. Emotional reaction does not alter the standard. Remain calm, clear and respectful. Avoid becoming drawn into personal argument and return to the evidence and applicable assessment criteria.

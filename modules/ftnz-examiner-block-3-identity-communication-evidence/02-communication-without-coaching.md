@@ -42,6 +42,19 @@ The loop protects both candidate independence and examiner neutrality.
 
 During a flight assessment, the candidate is instructed to change to a new radio frequency. The candidate enters one digit incorrectly and makes a call. There is no response. Before the candidate has checked the selection, the examiner asks: “Are you sure you entered the right frequency?” The candidate immediately checks the radio, identifies the error, selects the correct frequency and establishes communication.
 
+<details>
+<summary>Self-check — What is the main assessment concern?</summary>
+
+<ol type="A">
+<li>The candidate corrected the frequency too quickly.</li>
+<li>The examiner’s question identified the likely error for the candidate and influenced the evidence.</li>
+<li>Examiners should never ask questions during an assessment.</li>
+<li>An incorrect frequency should automatically determine the assessment outcome.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> B. The eventual correction may have been appropriate, but the examiner’s question identified the likely error and changed the evidential value of how independently the candidate would have recognised it.</p>
+</details>
+
 The main concern is that the examiner’s question identified the likely error and influenced the evidence. The eventual correction may have been appropriate, but it does not show how independently the candidate would have recognised the incorrect selection.
 
 If there is no need to intervene, continued observation may provide better evidence. If clarification is necessary, a neutral question may sometimes be more appropriate:
@@ -50,7 +63,7 @@ If there is no need to intervene, continued observation may provide better evide
 
 Even neutral questioning must not become repeated assistance.
 
-![Split path showing neutral evidence-gathering questions versus leading prompts that influence evidence](./assets/communication-without-coaching.svg)
+![Split path showing neutral evidence-gathering questions versus leading prompts that influence evidence](./assets/communication-without-coaching.png)
 
 ## A question-quality check
 

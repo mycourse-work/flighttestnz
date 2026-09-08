@@ -12,9 +12,9 @@
 
 | Source block | Course entry | Module | Core content |
 | --- | --- | --- | --- |
-| Block 1 | `aviation-examiner-recurrent-block-1` | `ftnz-examiner-block-1-professional-judgement` | 8 lessons, 16 objective questions, staged mixed-evidence workshop, field application and evidence/debrief aid |
-| Block 2 | `aviation-examiner-recurrent-block-2` | `ftnz-examiner-block-2-readiness-human-performance` | 7 lessons, 13 objective questions, staged assessment-changes workshop, field application and readiness/evidence aid |
-| Block 3 | `aviation-examiner-recurrent-block-3` | `ftnz-examiner-block-3-identity-communication-evidence` | 7 lessons, 15 objective questions, staged difficult-debrief workshop, field application and defensible-practice aid |
+| Block 1 | `aviation-examiner-recurrent-block-1` | `ftnz-examiner-block-1-professional-judgement` | 7 content lessons plus knowledge check, 16 objective questions, staged mixed-evidence workshop; optional field aid |
+| Block 2 | `aviation-examiner-recurrent-block-2` | `ftnz-examiner-block-2-readiness-human-performance` | 6 content lessons plus knowledge check, 13 objective questions, staged assessment-changes workshop; optional field aid |
+| Block 3 | `aviation-examiner-recurrent-block-3` | `ftnz-examiner-block-3-identity-communication-evidence` | 6 content lessons plus knowledge check, 15 objective questions, staged difficult-debrief workshop; optional field aid |
 
 ## Visual mapping
 
@@ -26,11 +26,13 @@
 - Infographic 6 — evidence vs interpretation vs conclusion: Block 3 Lesson 3.4.
 - Infographic 7 — communication without coaching: Block 3 Lesson 3.2, placed after the scenario explanation.
 - Raster contextual scenes: live assessment in Block 1, readiness/weather in Block 2, and professional debriefing in Block 3.
+- Each core SVG infographic now has a high-resolution PNG delivery asset beside the editable SVG source.
 
 ## Deliberate normalisations and open approvals
 
 - The source appendices contain lesson-number drift (`2.7`/`3.7`) and answer-key labels that do not match the lesson maps. The package uses stable lesson order and a final knowledge-check lesson per block.
 - The generic calibration cases do not include a particular approved FTNZ competency or assessment criterion. They are labelled reasoning practice and do not invent a pass/fail outcome.
-- The current preview includes an 80% course-level quiz threshold for the learner-player configuration. FTNZ management must approve whether this is a formal requirement or remove it for professional-development-only delivery.
+- The course manifests no longer assert a course-level 80% threshold. The quiz files retain a compatibility `passingScore: 80` field because the bundled structural validator requires it, but the current player ignores that quiz-level field and still has an 80% fallback. The supplied design describes formative self-checks and says any formal assessment requirement must be separately specified by FTNZ; a platform-level formative-quiz mode remains required before operational release if FTNZ does not approve a pass mark.
+- Course completion is set to `enforce` so the learner must meet the player’s reading/engagement evidence before continuing. Structured reflections still remain private browser-local inputs and are not yet server-backed completion evidence; that requires a platform completion-activity integration.
 - The requested participant name/CAA participation ID completion record is not implemented by course files. It requires a server-backed participant-record field, admin reporting/export, and FTNZ approval of retention/access rules. The course text does not pretend that browser-local reflections are that record.
 - Block availability is represented as three separate course entries so FTNZ can assign one block at a time. The live tenant must still maintain the intended cohort/course access rows before operational delivery.

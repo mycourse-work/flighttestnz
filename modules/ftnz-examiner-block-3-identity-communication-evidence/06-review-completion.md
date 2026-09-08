@@ -2,7 +2,7 @@
 
 ## Key points
 
-![Four-stage pathway from evidence to a defensible examiner decision](./assets/recurrent-calibration-question.svg)
+![Four-stage pathway from evidence to a defensible examiner decision](./assets/recurrent-calibration-question.png)
 
 - Experience should strengthen professional discipline, not create a personal assessment standard.
 - Examiner behaviour influences the assessment environment.
@@ -25,7 +25,9 @@ Ask yourself:
 4. Could another professional reconstruct the assessment from my notes?
 5. Have I recorded recovery and positive performance as well as concerns?
 
-Complete the Block 3 knowledge check to record your understanding. The course threshold is 80%; the quiz can be attempted again if needed.
+Complete the Block 3 knowledge check to record your understanding. It is a formative knowledge check; FTNZ has not specified a formal pass mark in the supplied source. Review and retry any questions that need attention.
+
+The [optional Block 3 defensible-practice aid](./downloads/block-3-defensible-practice-aid.md) is available for later field use; it is not an additional mandatory lesson.
 
 ## Completion position
 

@@ -47,9 +47,35 @@ The control is not to ignore intuition. It is to stop intuition from becoming an
 <div class="reflection-answer"><strong>Use this reflection to notice change, not to judge yourself.</strong> Consider whether the change is anchored to current requirements, observable evidence and shared calibration, or whether it has arisen mainly from habit, familiarity or local practice.</div>
 </div>
 
+<details>
+<summary>Self-check 1 — What is the purpose of recurrent examiner professional development?</summary>
+
+<ol type="A">
+<li>Repeat the initial Examiner Course every two years.</li>
+<li>Maintain currency, reflection, evidence discipline and examiner calibration.</li>
+<li>Ensure every examiner uses an identical assessment technique.</li>
+<li>Replace the examiner’s responsibility to remain current with regulatory material.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> B. Recurrent development assumes foundational knowledge is already established. Its purpose is to maintain current, reflective and standardised professional practice.</p>
+</details>
+
+<details>
+<summary>Self-check 2 — How should an experienced examiner’s intuition be used?</summary>
+
+<ol type="A">
+<li>It can replace recorded evidence when the examiner is highly experienced.</li>
+<li>It should never influence an assessment.</li>
+<li>It can help recognise patterns, but conclusions must still be supported by evidence and standards.</li>
+<li>It is more reliable than the published assessment standard.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> C. Experience can sharpen recognition, but assessment conclusions must remain anchored to observable evidence and the applicable standard.</p>
+</details>
+
 ## The recurrent calibration question
 
-![Four-stage pathway from evidence to a defensible examiner decision](./assets/recurrent-calibration-question.svg)
+![Four-stage pathway from evidence to a defensible examiner decision](./assets/recurrent-calibration-question.png)
 
 > **Calibration question:** Would another experienced examiner, presented with the same evidence and the same standard, be likely to understand and support the reasoning behind this decision?
 

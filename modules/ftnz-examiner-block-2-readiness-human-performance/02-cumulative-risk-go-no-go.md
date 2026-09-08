@@ -19,6 +19,19 @@ No individual issue necessarily prevents commencement. Together, they may change
 
 Everything required for the assessment is technically in place. However, weather is forecast to deteriorate, the candidate appears stressed, the aircraft has recently returned from maintenance, you are already running late, and the operator would strongly prefer the assessment to be completed today.
 
+<details>
+<summary>Self-check — Which approach is most appropriate?</summary>
+
+<ol type="A">
+<li>Commence because no single factor prohibits the assessment.</li>
+<li>Cancel because several threats are present.</li>
+<li>Consider the combined effect of the factors and determine whether the assessment can still be conducted fairly, safely and validly.</li>
+<li>Allow the operator to decide because the pressure is operational.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> C. Professional go/no-go decisions are rarely made by counting threats. Consider legality, safety, fairness, validity, likely workload, available mitigations and whether the assessment can still provide reliable evidence. Several individually acceptable circumstances may collectively create an inappropriate assessment environment, but several threats do not automatically require cancellation if they can be effectively managed.</p>
+</details>
+
 Consider the combined effect of the factors and determine whether the assessment can still be conducted fairly, safely and validly. Do not commence simply because no single factor prohibits it, and do not cancel merely because several threats are present. Consider legality, safety, fairness, validity, likely workload, available mitigations and whether the assessment can still provide reliable evidence.
 
 ## Pressure does not alter the standard

@@ -22,7 +22,9 @@ Ask yourself:
 4. How quickly and independently did the candidate recognise and manage the issue?
 5. What evidence would cause me to change my initial conclusion?
 
-Complete the Block 2 knowledge check to record your understanding. The course threshold is 80%; the quiz can be attempted again if needed.
+Complete the Block 2 knowledge check to record your understanding. It is a formative knowledge check; FTNZ has not specified a formal pass mark in the supplied source. Review and retry any questions that need attention.
+
+The [optional Block 2 readiness and evidence aid](./downloads/block-2-readiness-and-evidence-aid.md) is available for later field use; it is not an additional mandatory lesson.
 
 ## Completion position
 

@@ -12,7 +12,7 @@ You may understand the operational consequences of a delay, sympathise with a ca
 
 For this programme, *examiner drift* means a gradual movement away from a shared interpretation or application of the required standard. It is a professional-development concept, not a formal regulatory term.
 
-![Progressive path from shared standard to drift, with a return through review and calibration](./assets/examiner-drift.svg)
+![Progressive path from shared standard to drift, with a return through review and calibration](./assets/examiner-drift.png)
 
 | Mechanism | How it may appear |
 | --- | --- |
@@ -47,6 +47,19 @@ These controls support professional independence. They are not accusations of mi
 You are assessing a pilot you have known professionally for several years. The candidate is experienced and well regarded. The operator is short of qualified personnel. During today’s assessment the candidate’s technical handling is strong, but several judgement and threat-management concerns emerge. You notice yourself thinking: “They’re normally better than this.”
 
 At the decision point, give greatest weight to the observable evidence from today’s assessment. Previous performance, operator confidence and operational consequences may influence you, but they do not replace current evidence against the applicable standard.
+
+<details>
+<summary>Self-check — Which information should carry the greatest weight?</summary>
+
+<ol type="A">
+<li>The candidate’s previous strong performance.</li>
+<li>The operator’s confidence in the candidate.</li>
+<li>The observable evidence from today’s assessment.</li>
+<li>The operational consequences of an unsuccessful outcome.</li>
+</ol>
+
+<p><strong>Model reasoning:</strong> C. Previous performance and operational context may influence the examiner, but they do not replace evidence from the current assessment. Continue gathering sufficient evidence against the applicable standard.</p>
+</details>
 
 ## Key takeaways
 

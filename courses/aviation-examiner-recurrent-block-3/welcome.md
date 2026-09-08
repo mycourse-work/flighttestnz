@@ -2,6 +2,8 @@
 
 ![Flight Test New Zealand logo](./assets/ftnz-logo.png)
 
+![Flight Test New Zealand aviation examiner and pilot reviewing assessment evidence together](./assets/welcome-hero.png)
+
 ## Block 3 — Examiner Identity, Communication and Evidence
 
 Welcome to Block 3 of the Flight Test New Zealand (FTNZ) Aviation Examiner Recurrent Professional Development Programme.

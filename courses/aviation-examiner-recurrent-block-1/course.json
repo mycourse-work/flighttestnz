@@ -16,6 +16,9 @@
   "completionRecord": {
     "enabled": true,
     "title": "Flight Examiner Refresher Block 1",
+    "heading": "Create your FTNZ completion record",
+    "nameLabel": "Examiner name",
+    "referenceLabel": "CAA participation ID",
     "requireName": true,
     "requireCaaId": true
   },

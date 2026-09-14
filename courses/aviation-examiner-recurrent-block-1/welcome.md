@@ -22,9 +22,11 @@ This block is for experienced FTNZ aviation examiners. It is not a repeat of the
 
 ## How to work through the block
 
-Read each lesson, complete the reflective prompts, and finish the knowledge check. The calibration workshop asks you to commit to your reasoning before comparing it with FTNZ model reasoning. The purpose is professional development and standardisation, not speed.
+Read each session, complete the reflective prompts, and finish the knowledge check. The calibration workshop asks you to commit to your reasoning before comparing it with FTNZ model reasoning. The purpose is professional development and standardisation, not speed.
 
-> **Important:** This programme complements, and does not replace, Civil Aviation Rules, Advisory Circulars, examiner delegations or approvals, FTNZ exposition requirements, approved assessment standards, flight-test guides or other authoritative material. Current regulatory and procedural currency remains your ongoing responsibility.
+This course should take approximately 90 minutes to complete. You can exit at any time and recommence from where you left off on the same device and browser.
+
+> **Important:** This programme complements, and does not replace, Civil Aviation Rules, Civil Aviation Transport Instruments, Advisory Circulars, examiner delegations or approvals, approved assessment standards, flight-test guides or other authoritative material.
 
 ## Recurrent cycle
 
@@ -32,6 +34,4 @@ FTNZ uses three standalone recurrent blocks across a six-year cycle. Your assign
 
 ## Completion records
 
-The portal records your learning progress and completion date. Follow FTNZ’s enrolment and administration process for the participant details and CAA participation ID required for the organisation’s training record.
-
-> **TEM Reflection:** What threat or pressure could make your judgement less evidence-based in an upcoming assessment? What control will you use?
+After you achieve 100% in the knowledge check, enter your name and CAA participation ID to create the FTNZ completion record. The record includes the course title and completion date and is sent to FTNZ.

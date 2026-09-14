@@ -1,6 +1,6 @@
 # Field Application — Evidence and Debrief Aid
 
-This extended application lesson turns Block 1’s principles into a repeatable preparation tool. Use it before or after a difficult assessment, especially when the candidate is familiar, operational pressure is present, or the evidence is mixed.
+This extended application session turns Block 1’s principles into a repeatable preparation tool. Use it before or after a difficult assessment, especially when the candidate is familiar, operational pressure is present, or the evidence is mixed.
 
 ## The five-pass review
 
@@ -40,7 +40,7 @@ Recovery is relevant evidence, but it does not erase the event that made recover
 
 ### Pass 4 — test your judgement
 
-Name the pressure or bias if one is present: familiarity, reputation, operator need, early-pass thinking, early-fail thinking, personal technique preference or over-weighted recovery.
+Identify the pressure or bias if one is present: familiarity, reputation, operator need, early-pass thinking, early-fail thinking, personal technique preference or over-weighted recovery.
 
 > **Control question:** What evidence would cause me to change my mind?
 
@@ -63,6 +63,4 @@ Do not debate reputation, operational need or what another examiner might have d
 <div class="reflection-answer"><strong>Model response:</strong> A strong answer separates what happened from what it may mean, identifies the applicable standard, includes positive and concerning evidence, and explains how the final weighting can be reconstructed by another experienced examiner.</div>
 </div>
 
-[Download the Block 1 evidence and debrief aid](./downloads/block-1-evidence-and-debrief-aid.md)
-
-> **TEM Reflection:** Which control in this five-pass review would most improve your next difficult assessment, and why?
+[Open the formatted Block 1 evidence and debrief aid](./downloads/block-1-evidence-and-debrief-aid.html)

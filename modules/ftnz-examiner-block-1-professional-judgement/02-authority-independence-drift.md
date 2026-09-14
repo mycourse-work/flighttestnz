@@ -14,6 +14,8 @@ For this programme, *examiner drift* means a gradual movement away from a shared
 
 ![Progressive path from shared standard to drift, with a return through review and calibration](./assets/examiner-drift.png)
 
+## Mechanisms of Examiner Drift
+
 | Mechanism | How it may appear |
 | --- | --- |
 | Routine | Validity checks or evidence requirements become treated as administrative because the assessment feels familiar. |
@@ -30,14 +32,14 @@ Drift is easier to control when it is made visible early. Practical controls inc
 
 - state the applicable standard before relying on a preferred technique;
 - use a short evidence note even when the candidate is familiar or the outcome feels obvious;
-- name commercial, scheduling or staffing pressure before it changes the decision;
+- identify commercial, scheduling or staffing pressure before it changes the decision;
 - ask another experienced examiner to review a genuinely difficult or repeated judgement issue;
 - compare local practice with the approved requirement rather than treating repetition as proof; and
 - revisit an early conclusion by asking what evidence would change it.
 
 These controls support professional independence. They are not accusations of misconduct and do not require a finding that drift has already occurred.
 
-<div class="reflection" data-id="block-1-drift-control" data-min-chars="0">
+<div class="reflection" data-id="block-1-drift-control" data-min-chars="40" data-required="true">
 <div class="reflection-prompt"><strong>Reflection</strong><br>Which drift mechanism is most plausible in your examining environment? Select one and identify one practical control that would help prevent it.</div>
 <div class="reflection-answer"><strong>Useful controls</strong> may include deliberate evidence notes, checking the published criteria, naming operational pressure, seeking peer calibration, or asking what evidence would change your initial view.</div>
 </div>
@@ -77,3 +79,8 @@ Choose one assessment practice that is commonly described as “how we do it her
 4. what calibration or review would clarify the boundary.
 
 The aim is to distinguish an acceptable technique from an unexamined local standard.
+
+<div class="reflection" data-id="block-1-local-practice" data-min-chars="100" data-required="true">
+<div class="reflection-prompt"><strong>Record your response</strong><br>Describe the local practice, identify which part is supported by a requirement or standard, distinguish any local preference, and state what calibration or review would clarify the boundary.</div>
+<div class="reflection-answer"><strong>Model approach:</strong> A defensible response identifies the practice precisely, traces the supported element to the applicable requirement, labels preference as preference, and names a practical peer-review or calibration step.</div>
+</div>

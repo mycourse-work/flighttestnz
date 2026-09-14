@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Block 1 Evidence and Debrief Aid</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --navy: #092c73;
+      --red: #c8102e;
+      --ink: #172033;
+      --muted: #5e6879;
+      --line: #cfd7e4;
+      --wash: #f3f6fb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #e9eef5;
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.45;
+    }
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 32px auto;
+      padding: 48px 54px;
+      background: #fff;
+      border-top: 8px solid var(--navy);
+      box-shadow: 0 14px 40px rgba(9, 44, 115, 0.12);
+    }
+    h1 {
+      margin: 0;
+      color: var(--navy);
+      font-size: 2rem;
+      line-height: 1.15;
+    }
+    .subtitle {
+      margin: 8px 0 28px;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+    h2 {
+      margin: 30px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid var(--navy);
+      color: var(--navy);
+      font-size: 1.2rem;
+    }
+    p { margin: 0 0 12px; }
+    .field {
+      display: grid;
+      grid-template-columns: minmax(190px, 0.8fr) 1.8fr;
+      gap: 14px;
+      align-items: end;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .field span:first-child { font-weight: 700; }
+    .write-line { min-height: 1.6rem; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+    th, td {
+      padding: 11px 12px;
+      border: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: var(--navy);
+      color: #fff;
+    }
+    td:last-child { height: 48px; }
+    tr:nth-child(even) td { background: var(--wash); }
+    .script {
+      margin-top: 12px;
+      padding: 16px 18px;
+      border-left: 4px solid var(--red);
+      background: var(--wash);
+      font-size: 1rem;
+    }
+    .actions {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 9px 15px;
+      border: 0;
+      border-radius: 7px;
+      background: var(--navy);
+      color: #fff;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    footer {
+      margin-top: 30px;
+      color: var(--muted);
+      font-size: 0.78rem;
+    }
+    @media (max-width: 640px) {
+      main { width: 100%; margin: 0; padding: 28px 20px; box-shadow: none; }
+      .field { grid-template-columns: 1fr; gap: 3px; }
+      .write-line { min-height: 2rem; }
+    }
+    @media print {
+      @page { size: A4 portrait; margin: 13mm; }
+      body { background: #fff; }
+      main { width: 100%; margin: 0; padding: 0; border-top-width: 5px; box-shadow: none; }
+      .actions { display: none; }
+      h2 { break-after: avoid; }
+      table, .script { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="actions"><button type="button" onclick="window.print()">Print or save as PDF</button></div>
+    <h1>Block 1 Evidence and Debrief Aid</h1>
+    <p class="subtitle">Flight Test New Zealand Aviation Examiner Recurrent Professional Development</p>
+    <p>Use this aid to structure a difficult or mixed-evidence assessment. It supports professional reasoning and does not replace the applicable assessment standard or FTNZ process.</p>
+
+    <h2>Before commencement</h2>
+    <div class="field"><span>Assessment prerequisites verified</span><span class="write-line"></span></div>
+    <div class="field"><span>Documentation or eligibility issue</span><span class="write-line"></span></div>
+    <div class="field"><span>Examiner authority and readiness</span><span class="write-line"></span></div>
+    <div class="field"><span>Aircraft simulator and conditions</span><span class="write-line"></span></div>
+    <div class="field"><span>Pressure or familiarity to identify</span><span class="write-line"></span></div>
+
+    <h2>Evidence record</h2>
+    <table>
+      <thead><tr><th scope="col">Prompt</th><th scope="col">Notes</th></tr></thead>
+      <tbody>
+        <tr><td>What was observed?</td><td></td></tr>
+        <tr><td>What was happening around the candidate?</td><td></td></tr>
+        <tr><td>What standard or competency is relevant?</td><td></td></tr>
+        <tr><td>Was the event isolated or repeated?</td><td></td></tr>
+        <tr><td>How and when was it recognised?</td><td></td></tr>
+        <tr><td>Was recovery independent and effective?</td><td></td></tr>
+        <tr><td>What positive evidence also matters?</td><td></td></tr>
+      </tbody>
+    </table>
+
+    <h2>Decision explanation</h2>
+    <div class="field"><span>Evidence carrying greatest weight</span><span class="write-line"></span></div>
+    <div class="field"><span>Why that weight is justified</span><span class="write-line"></span></div>
+    <div class="field"><span>What would resolve uncertainty</span><span class="write-line"></span></div>
+    <div class="field"><span>Decision and link to standard</span><span class="write-line"></span></div>
+
+    <h2>Debrief opening</h2>
+    <p class="script">“The assessment outcome is ________________________________. I’ll take you through the evidence that led to that decision and how it relates to ________________________________.”</p>
+
+    <footer>FTNZ Block 1 field aid. Complete the online sessions and knowledge check in the learning portal.</footer>
+  </main>
+</body>
+</html>

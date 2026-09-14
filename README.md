@@ -22,6 +22,6 @@ This repository contains three independently assignable course entries for exper
 
 The three-block sequence is designed for a six-year recurrent cycle. FTNZ can expose only the designated block for each two-year recurrent point while keeping the other block courses unavailable. Current regulatory and procedural currency remains the examiner’s responsibility and is not duplicated here.
 
-The course package is based on the FTNZ programme design, master online course content and infographic brief supplied for development. FTNZ should complete its own approval, cohort assignment and completion-record process before delivery.
+The course package is based on the FTNZ programme design, master online course content, infographic brief and the subsequent Block 1 correction review. FTNZ retains responsibility for cohort assignment and programme oversight.
 
-The preview also includes staged formative calibration workshops, optional downloadable field aids, contextual raster scenes, and paired high-resolution PNG/editable SVG decision diagrams. The staged widgets and self-checks are formative and do not replace the applicable FTNZ assessment standard.
+Block 1 uses sequential sessions, required written responses, a 100% final knowledge-check requirement, a five-attempt limit and a non-certificate FTNZ completion record. The package also includes staged calibration workshops, optional formatted field aids, contextual raster scenes, and paired high-resolution PNG/editable SVG decision diagrams.

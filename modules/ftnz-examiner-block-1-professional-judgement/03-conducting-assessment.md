@@ -57,7 +57,7 @@ During a flight assessment, the candidate is instructed to change to a new radio
 
 ![Evidence pathway for an error, recognition, recovery, recurrence and standard comparison](./assets/isolated-error-pattern.png)
 
-## Objective notes
+## Objective notes (examples)
 
 | Weak note | More defensible note |
 | --- | --- |
@@ -67,6 +67,9 @@ During a flight assessment, the candidate is instructed to change to a new radio
 
 ## Apply it
 
-Before the next assessment, decide what you will do when an event is concerning but not yet unsafe. Name the observation threshold, the safety threshold and the point at which assessment validity may no longer be maintained.
+<div class="reflection" data-id="block-1-observation-or-intervention" data-min-chars="80" data-required="true">
+<div class="reflection-prompt">When an error does not require intervention, consider: how do you decide when to keep observing and allow the candidate to demonstrate recognition and recovery?</div>
+<div class="reflection-answer"><strong>Takeaway:</strong> The examiner’s response can affect the evidence. Sometimes continued observation provides more useful evidence than intervention.</div>
+</div>
 
-> **TEM Reflection:** Which error would you be most tempted to correct early because it feels uncomfortable to watch? What would you need to observe before deciding that a prompt is necessary?
+**Takeaway:** The examiner’s response can affect the evidence. Sometimes continued observation provides more useful evidence than intervention.

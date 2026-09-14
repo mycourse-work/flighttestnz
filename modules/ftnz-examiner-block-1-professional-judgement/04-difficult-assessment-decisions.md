@@ -24,14 +24,16 @@ A borderline situation is one in which evidence requires careful interpretation.
 | Single-event fixation | Consider severity, context, pattern and standard relevance. |
 | Personal technique preference | Return to the published outcome or criteria. |
 | Overweighting recovery | Assess the recovery, but do not erase the original event. |
-| Pressure drift | Name the pressure explicitly and separate it from the evidence. |
+| Pressure drift | Identify the pressure explicitly and separate it from the evidence. |
 
 ## Scenario — the candidate nobody wanted to fail
 
 The candidate is highly experienced, well respected and known personally by several examiners. The operator is short of personnel. The assessment has proceeded smoothly. Near the conclusion, one sequence reveals a significant lapse in judgement. Technical skill remains high. There is no further valid opportunity to observe the same behaviour again.
 
-<details>
-<summary>Decision 1 — Which question should the examiner answer first?</summary>
+<details class="reveal-panel">
+<summary><span class="when-closed">Reveal Decision 1 questions</span><span class="when-open">Hide Decision 1 questions</span></summary>
+
+<p><strong>Decision 1 — Which question should the examiner answer first?</strong></p>
 
 <ol type="A">
 <li>Will the operator be able to replace the candidate?</li>
@@ -43,8 +45,10 @@ The candidate is highly experienced, well respected and known personally by seve
 <p><strong>Model reasoning:</strong> C. Begin with observable evidence and its relationship to the standard, not operational consequence or reputation.</p>
 </details>
 
-<details>
-<summary>Decision 2 — How should a significant but isolated event be treated?</summary>
+<details class="reveal-panel">
+<summary><span class="when-closed">Reveal Decision 2 questions</span><span class="when-open">Hide Decision 2 questions</span></summary>
+
+<p><strong>Decision 2 — How should a significant but isolated event be treated?</strong></p>
 
 <ol type="A">
 <li>An isolated event can never determine an assessment outcome.</li>

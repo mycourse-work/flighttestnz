@@ -22,13 +22,15 @@ The debrief should explain the outcome using evidence and standards without turn
 | “You seemed overloaded.” | “During the arrival you missed the radio call, omitted the checklist and required repeated heading correction. Those observations support the workload-management concern.” |
 | “I didn’t like your decision.” | “The decision did not demonstrate the required standard because the available threat information was not incorporated into the plan.” |
 
-<details>
-<summary>Self-check — Which debrief statement is more defensible?</summary>
+### Self-check — Which debrief statement is more defensible?
 
 <ol type="A">
 <li>“I don’t think you showed enough situational awareness today.”</li>
 <li>“During the arrival you did not identify the conflicting traffic despite two opportunities, and the scan was not re-established until after the traffic alert.”</li>
 </ol>
+
+<details class="reveal-panel">
+<summary><span class="when-closed">Reveal model reasoning</span><span class="when-open">Hide model reasoning</span></summary>
 
 <p><strong>Model reasoning:</strong> B. It describes observable behaviour and provides a clearer evidence trail for the assessment judgement.</p>
 </details>

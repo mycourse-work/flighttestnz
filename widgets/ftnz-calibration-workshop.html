@@ -615,10 +615,10 @@
               label: 'Stage 1 — before commencement',
               prompt: 'An administrative prerequisite appears incomplete, although the operator says the underlying training was completed. What should drive the commencement decision?',
               options: [
-                'Likely candidate competence.',
-                'Operational need.',
-                'Whether the required preconditions for a valid assessment are actually satisfied.',
-                'The examiner’s previous knowledge of the candidate.'
+                'The candidate’s likely competence, supported by past performance and the operator’s assurance.',
+                'The operational need, provided the missing record can be corrected immediately after the assessment.',
+                'Whether every required precondition for a valid assessment has been verified before commencement.',
+                'The examiner’s previous knowledge, supported by a note that the prerequisite remains to be confirmed.'
               ],
               correct: 2,
               feedback: 'Competence and assessment validity are related but separate. Confirm that the assessment can legitimately commence within current requirements and authority.'
@@ -627,10 +627,10 @@
               label: 'Stage 2 — during the assessment',
               prompt: 'The candidate misses a radio call, omits one checklist item and allows navigation accuracy to deteriorate. Each event is recoverable. What should the examiner do?',
               options: [
-                'Fail immediately because three errors have occurred.',
-                'Ignore the issues because each was recoverable.',
-                'Continue gathering evidence and assess whether the events form a meaningful workload or situational-awareness pattern.',
-                'Prompt the candidate to manage workload better.'
+                'Treat the cluster as a failed standard because three separate errors have now occurred under workload.',
+                'Treat each event as resolved because the candidate recovered before any lasting consequence developed.',
+                'Continue gathering evidence to decide whether the events form a meaningful workload or situational-awareness pattern.',
+                'Prompt the candidate to manage workload, then assess how effectively the candidate follows that direction.'
               ],
               correct: 2,
               feedback: 'Separate isolated error from emerging pattern. Prompting may contaminate evidence unless needed for safety.'
@@ -639,10 +639,10 @@
               label: 'Stage 3 — procedural error and recovery',
               prompt: 'The candidate enters a frequency incorrectly, initially repeats the call, then identifies and corrects the entry without examiner assistance. Which statement is most accurate?',
               options: [
-                'The incorrect frequency automatically determines the final result.',
-                'The event should be ignored because the candidate eventually corrected it.',
-                'Assess the error, recognition and recovery as part of the complete evidence story and determine whether it contributes to a wider pattern.',
-                'Immediately provide the correct frequency whenever a radio entry error occurs.'
+                'Treat the incorrect frequency as decisive because communication accuracy is required throughout the assessment.',
+                'Treat the event as resolved because the candidate eventually restored communication without examiner assistance.',
+                'Assess the error, recognition and recovery together, then decide whether the event is isolated or part of a pattern.',
+                'Give the correct frequency once the first call receives no response, then assess the quality of the correction.'
               ],
               correct: 2,
               feedback: 'The incorrect entry, recognition and independent recovery are all relevant evidence. Avoid an automatic outcome based on one procedural error.'
@@ -651,10 +651,10 @@
               label: 'Stage 4 — recovery and mixed evidence',
               prompt: 'The candidate performs the remaining items well after the frequency error. How should the recovery be treated?',
               options: [
-                'It erases the earlier error.',
-                'It is irrelevant because an error occurred.',
-                'It provides useful evidence, but must be weighed alongside the original event rather than replacing it.',
-                'It guarantees competence because the candidate corrected the problem.'
+                'Treat the later strong performance as replacing the earlier error because the candidate changed the checking behaviour.',
+                'Exclude the recovery from the assessment because only performance at the time of the original error is relevant.',
+                'Treat recovery as useful evidence and weigh it with the original event, rather than allowing either to replace the other.',
+                'Treat the independent correction as proof of competence because no examiner assistance was needed after the error.'
               ],
               correct: 2,
               feedback: 'Recovery can demonstrate recognition, checking discipline and effective correction, but it does not remove the original evidence.'
@@ -894,7 +894,7 @@
           controls.appendChild(nextButton);
           nextButton.addEventListener('click', function () {
             if (stageIndex === data.stages.length - 1) {
-              host.innerHTML = '<div class="workshop-complete"><strong>' + data.title + '</strong>All staged decisions are complete. Continue with the written reflection in the lesson and compare your final position with the approved standard.</div>';
+              host.innerHTML = '<div class="workshop-complete"><strong>' + data.title + '</strong>All staged decisions are complete. Continue with the written reflection in the session and compare your final position with the approved standard.</div>';
               if (typeof window.__widgetReportHeight === 'function') window.__widgetReportHeight();
               return;
             }

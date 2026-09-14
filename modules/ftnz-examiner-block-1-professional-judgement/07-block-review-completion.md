@@ -24,14 +24,16 @@ Ask yourself:
 
 Complete the Block 1 knowledge check to record your understanding. It is a formative knowledge check; FTNZ has not specified a formal pass mark in the supplied source. Review and retry any questions that need attention.
 
-The [optional Block 1 evidence and debrief aid](./downloads/block-1-evidence-and-debrief-aid.md) condenses the five-pass review for later field use; it is not an additional mandatory lesson.
+The [optional Block 1 evidence and debrief aid](./downloads/block-1-evidence-and-debrief-aid.html) condenses the five-pass review for later field use; it is not an additional mandatory session.
 
 ## Source review questions
 
 These self-checks reproduce the final review questions from the master course. Decide before opening each model explanation.
 
-<details>
-<summary>Review 1 — When operational pressure exists, what should determine the standard?</summary>
+<details class="reveal-panel">
+<summary><span class="when-closed">Reveal Review 1 question</span><span class="when-open">Hide Review 1 question</span></summary>
+
+<p><strong>When operational pressure exists, what should determine the standard?</strong></p>
 
 <ol type="A">
 <li>Candidate experience.</li>
@@ -43,8 +45,10 @@ These self-checks reproduce the final review questions from the master course. D
 <p><strong>Model reasoning:</strong> C. Operational pressure may be real, but it does not alter the applicable standard or the evidence required.</p>
 </details>
 
-<details>
-<summary>Review 2 — What is the best description of examiner drift?</summary>
+<details class="reveal-panel">
+<summary><span class="when-closed">Reveal Review 2 question</span><span class="when-open">Hide Review 2 question</span></summary>
+
+<p><strong>What is the best description of examiner drift?</strong></p>
 
 <ol type="A">
 <li>Any development in examiner technique.</li>
@@ -56,8 +60,10 @@ These self-checks reproduce the final review questions from the master course. D
 <p><strong>Model reasoning:</strong> B. Professional practice should evolve. Drift refers to movement away from shared standards or their consistent application.</p>
 </details>
 
-<details>
-<summary>Review 3 — A candidate makes an error, recognises it independently and corrects it. What should the examiner do?</summary>
+<details class="reveal-panel">
+<summary><span class="when-closed">Reveal Review 3 question</span><span class="when-open">Hide Review 3 question</span></summary>
+
+<p><strong>A candidate makes an error, recognises it independently and corrects it. What should the examiner do?</strong></p>
 
 <ol type="A">
 <li>Ignore the original error because recovery occurred.</li>
@@ -69,8 +75,10 @@ These self-checks reproduce the final review questions from the master course. D
 <p><strong>Model reasoning:</strong> C. The original error and independent recovery are both relevant evidence. Neither should be considered in isolation from the wider assessment pattern and applicable standard.</p>
 </details>
 
-<details>
-<summary>Review 4 — How should strong recovery after an error be treated?</summary>
+<details class="reveal-panel">
+<summary><span class="when-closed">Reveal Review 4 question</span><span class="when-open">Hide Review 4 question</span></summary>
+
+<p><strong>How should strong recovery after an error be treated?</strong></p>
 
 <ol type="A">
 <li>It always cancels the original error.</li>
@@ -82,8 +90,10 @@ These self-checks reproduce the final review questions from the master course. D
 <p><strong>Model reasoning:</strong> C. Recovery may demonstrate recognition and resilience, but it does not erase the original evidence.</p>
 </details>
 
-<details>
-<summary>Review 5 — Which note is most defensible?</summary>
+<details class="reveal-panel">
+<summary><span class="when-closed">Reveal Review 5 question</span><span class="when-open">Hide Review 5 question</span></summary>
+
+<p><strong>Which note is most defensible?</strong></p>
 
 <ol type="A">
 <li>“Poor judgement.”</li>
@@ -98,5 +108,3 @@ These self-checks reproduce the final review questions from the master course. D
 ## Completion position
 
 The objective of Block 1 is not to create identical examiners. It is to maintain examiners who apply current standards consistently, protect assessment integrity, communicate clearly and can defend difficult decisions using evidence.
-
-> **TEM Reflection:** What threat, error or undesired outcome will you actively monitor for in your next assessment, and what control will you use?

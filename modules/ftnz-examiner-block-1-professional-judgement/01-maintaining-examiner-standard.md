@@ -4,7 +4,7 @@ This recurrent programme assumes you already understand the examiner role, deleg
 
 ## Learning outcomes
 
-By the end of this lesson, you should be able to:
+By the end of this session, you should be able to:
 
 - explain why experience does not remove the need for evidence and standards;
 - recognise when your assessment threshold may have moved; and
@@ -42,7 +42,7 @@ An examiner sees a familiar candidate make an early mistake. The examiner’s fi
 
 The control is not to ignore intuition. It is to stop intuition from becoming an unsupported conclusion.
 
-<div class="reflection" data-id="block-1-threshold-moved" data-min-chars="0">
+<div class="reflection" data-id="block-1-threshold-moved" data-min-chars="40" data-required="true">
 <div class="reflection-prompt"><strong>Reflection — has my threshold moved?</strong><br>Think of one aspect of examining where your judgement has changed since you first became authorised. Are you now more tolerant of something, less tolerant of it, or simply better at identifying what matters? What caused the change?</div>
 <div class="reflection-answer"><strong>Use this reflection to notice change, not to judge yourself.</strong> Consider whether the change is anchored to current requirements, observable evidence and shared calibration, or whether it has arisen mainly from habit, familiarity or local practice.</div>
 </div>

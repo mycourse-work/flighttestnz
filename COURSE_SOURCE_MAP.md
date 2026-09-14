@@ -7,6 +7,7 @@
 - `Design_and_Implementation_FTNZ Examiner_Refresher.docx` — three-block, six-year recurrent architecture; self-paced delivery; calibration method; completion/records; scope and governance.
 - `Blocks 1-3_Examiner_Refresher_Course.docx` — learner-facing Block 1, Block 2 and Block 3 lessons, scenarios, decision points, model reasoning, reflections and answer keys.
 - `FTNZ_Logo_HiRes_Transparent.png` and `FTNZ_Logo_HiRes_White.png` — supplied brand assets; the transparent version is used on the light course welcomes and tenant header.
+- `Block 1 corrections.docx` — FTNZ review instructions for terminology, pacing, mandatory responses, infographic layout, reveal controls, quiz design, attempt limits and the completion-record workflow.
 
 ## Course mapping
 
@@ -33,7 +34,7 @@
 
 - The source appendices contain lesson-number drift (`2.7`/`3.7`) and answer-key labels that do not match the lesson maps. The package uses stable lesson order and a final knowledge-check lesson per block.
 - The generic calibration cases do not include a particular approved FTNZ competency or assessment criterion. They are labelled reasoning practice and do not invent a pass/fail outcome.
-- The course manifests no longer assert a course-level 80% threshold. The quiz files retain a compatibility `passingScore: 80` field because the bundled structural validator requires it, but the current player ignores that quiz-level field and still has an 80% fallback. The supplied design describes formative self-checks and says any formal assessment requirement must be separately specified by FTNZ; a platform-level formative-quiz mode remains required before operational release if FTNZ does not approve a pass mark.
-- Course completion is set to `enforce` so the learner must meet the player’s reading/engagement evidence before continuing. Structured reflections still remain private browser-local inputs and are not yet server-backed completion evidence; that requires a platform completion-activity integration.
-- The requested participant name/CAA participation ID completion record is not implemented by course files. It requires a server-backed participant-record field, admin reporting/export, and FTNZ approval of retention/access rules. The course text does not pretend that browser-local reflections are that record.
+- The Block 1 correction review supersedes the earlier formative-only position for that block: Block 1 now requires 100% on the knowledge check and allows no more than five attempts. Blocks 2 and 3 retain their existing formative configuration pending separate FTNZ review.
+- Block 1 completion is sequential and set to `enforce`. Required response fields are checked in the learner before progression, and the reading/scroll evidence floor also applies to public learners. Reflection text remains browser-local and is not included in the emailed completion record.
+- Block 1 now creates a non-certificate completion record after a verified 100% quiz result. The learner enters their name and CAA participation ID; the server adds the course title and completion date, stores the record in tenant D1 and sends fixed-recipient notifications to Steve Kingsbury and Diana Franklin.
 - Block availability is represented as three separate course entries so FTNZ can assign one block at a time. The live tenant must still maintain the intended cohort/course access rows before operational delivery.
